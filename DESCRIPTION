@@ -1,9 +1,22 @@
-Package: parliament-fi
+Package: finpar
 Type: Package
-Title: What the package does (short line)
-Version: 1.0
+Title: R client for the unofficial API of the Parliament of Finland
+Version: 0.0.1
 Date: 2014-02-27
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Encoding: UTF-8
+Author: Joona Lehtomäki
+Maintainer: Joona Lehtomäki <joona.lehtomaki@gmail.com>
+Description: Fetch data on the members of the parliament, parties, committees,
+    and other relevant information. Base on an unofficial API provided by
+    Kansan Muisti, see the API at http://dev.kansanmuisti.fi/api/v1/ . The whole
+    API will not be covered initially.
+License: file LICENSE
+Depends:
+    R (>= 2.15.2)
+Suggests:
+    testthat,
+    knitr
+Imports:
+    methods
+BugReports: https://github.com/rOpenGov/parliament-fi/issues
+VignetteBuilder: knitr
