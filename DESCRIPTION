@@ -18,5 +18,5 @@ Suggests:
     knitr
 Imports:
     methods
-BugReports: https://github.com/rOpenGov/parliament-fi/issues
+BugReports: https://github.com/rOpenGov/finpar/issues
 VignetteBuilder: knitr
