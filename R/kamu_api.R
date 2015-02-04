@@ -22,14 +22,23 @@
 #' 
 #' @author Joona Lehtomaki <joona.lehtomaki@@gmail.com>
 #' 
+#' @examples \dontrun{
+#' # Example using members
+#' members <- query_kamu_api("member")
+#' # Change query limit (default = 20)
+#' members <- query_kamu_api("member", query=list(limit=30))
+#' }
+#' 
 query_kamu_api <- function(endpoint, query=NULL, cache=FALSE) {
   
   # Base URL for KaMu API
   base_url <- "http://dev.kansanmuisti.fi"
+  # Construct the full endpoint
   endpoint <- paste0("api/v1/", endpoint)
   
-  key <- c(endpoint=endpoint, query)
   r_content <- NULL
+  # Generate a key that is used with the cache
+  key <- c(endpoint=endpoint, query)
   
   if (cache == TRUE) {
     r_content <- loadCache(key, suffix="finpar.Rcache")
@@ -45,7 +54,7 @@ query_kamu_api <- function(endpoint, query=NULL, cache=FALSE) {
   r_content <- content(r)
   
   if (cache == TRUE || cache == 'flush') {
-    saveCache(r_content, key=key, suffix=.options$cache)
+    saveCache(r_content, key=key, suffix="finpar.Rcache")
   }
   return(r_content[["objects"]])
 }
