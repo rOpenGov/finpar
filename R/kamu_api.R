@@ -2,11 +2,13 @@
 #' 
 #' Function provides a single function to query KaMU API and an cache 
 #' implementation. It also defines the base URL scheme for the API. API resource
-#' parameters are provided as arguments.
+#' parameters are provided a
+#' 
+#' @note All NULL values from JSON responses are replaced by NAs.
 #' 
 #' @param endpoint A character URL defining the queried endpoint.
 #' @param query list of query parameters.
-#' @param cache  Sets the cachce mode: \code{TRUE} = Use cache if available and 
+#' @param cache  Sets the cache mode: \code{TRUE} = Use cache if available and 
 #' save to cache, \code{FALSE} = Ignore cache if available and do not save to 
 #' cache, \code{"flush"} = Ignore cache if available and save to cache.
 #' 
@@ -47,9 +49,11 @@ query_kamu_api <- function(endpoint, query=NULL, cache=FALSE) {
     message("Loaded cached data")
   } else {
       r <- GET(base_url, path = endpoint, query = query)
-      
+
       # Check the request succeeded
-      if (status_code(r) == 404) {
+      if (status_code(r) == 400) {
+        stop("Bad request, check the query parameters.")
+      } else if (status_code(r) == 404) {
         stop("Endpoint URI ", paste0(base_url, "/", endpoint), " not found.")
       } else if (status_code(r) >= 500) {
         stop("Request caused server side error or timeout.")
@@ -63,6 +67,20 @@ query_kamu_api <- function(endpoint, query=NULL, cache=FALSE) {
         saveCache(r_content, key=key, suffix="finpar.Rcache")
       }
   }
+  # Due to some inconsistencies in the how different endpoints are handled,
+  # the response might be a list with "meta" and "objects" sections, or then
+  # just the data. Check for this.
   
-  return(r_content[["objects"]])
+  if ("objects" %in% names(r_content)) {
+    dat <- r_content[["objects"]]
+  } else {
+    # Create a list so the response has the same structure as in the case of
+    # multiple response items.
+    dat <- list(r_content)
+  }
+  
+  # Replace NULLs with NAs
+  dat <- lapply(dat, null_to_NA)
+  
+  return(dat)
 }
