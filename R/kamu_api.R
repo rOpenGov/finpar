@@ -38,7 +38,7 @@ query_kamu_api <- function(endpoint, query=NULL, cache=FALSE) {
   
   r_content <- NULL
   # Generate a key that is used with the cache
-  key <- c(endpoint=endpoint, query)
+  key <- list(endpoint, query)
   
   if (cache == TRUE) {
     r_content <- loadCache(key, suffix="finpar.Rcache")
@@ -47,14 +47,22 @@ query_kamu_api <- function(endpoint, query=NULL, cache=FALSE) {
     message("Loaded cached data")
   } else {
       r <- GET(base_url, path = endpoint, query = query)
+      
+      # Check the request succeeded
+      if (status_code(r) == 404) {
+        stop("Endpoint URI ", paste0(base_url, "/", endpoint), " not found.")
+      } else if (status_code(r) >= 500) {
+        stop("Request caused server side error or timeout.")
+      } else if (status_code(r) != 200) {
+        stop("Unspecified error occured.")
+      }
+      
+      r_content <- content(r)
+      
+      if (cache == TRUE || cache == 'flush') {
+        saveCache(r_content, key=key, suffix="finpar.Rcache")
+      }
   }
-  # Check the request succeeded
-  stop_for_status(r)
   
-  r_content <- content(r)
-  
-  if (cache == TRUE || cache == 'flush') {
-    saveCache(r_content, key=key, suffix="finpar.Rcache")
-  }
   return(r_content[["objects"]])
 }

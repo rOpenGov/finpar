@@ -4,16 +4,16 @@
 \alias{query_kamu_api}
 \title{Query KaMu API against a given endpoint.}
 \usage{
-query_kamu_api(endpoint, cache, ...)
+query_kamu_api(endpoint, query = NULL, cache = FALSE)
 }
 \arguments{
 \item{endpoint}{A character URL defining the queried endpoint.}
 
+\item{query}{list of query parameters.}
+
 \item{cache}{Sets the cachce mode: \code{TRUE} = Use cache if available and
 save to cache, \code{FALSE} = Ignore cache if available and do not save to
 cache, \code{"flush"} = Ignore cache if available and save to cache.}
-
-\item{...}{optional query parameters.}
 }
 \value{
 httr response object (JSON parsed to a list).
@@ -22,6 +22,17 @@ httr response object (JSON parsed to a list).
 Function provides a single function to query KaMU API and an cache
 implementation. It also defines the base URL scheme for the API. API resource
 parameters are provided as arguments.
+}
+\note{
+Currently response meta data is not used for anything.
+}
+\examples{
+\dontrun{
+# Example using members
+members <- query_kamu_api("member")
+# Change query limit (default = 20)
+members <- query_kamu_api("member", query=list(limit=30))
+}
 }
 \author{
 Joona Lehtomaki <joona.lehtomaki@gmail.com>
