@@ -11,7 +11,7 @@ query_kamu_api(endpoint, query = NULL, cache = FALSE)
 
 \item{query}{list of query parameters.}
 
-\item{cache}{Sets the cachce mode: \code{TRUE} = Use cache if available and
+\item{cache}{Sets the cache mode: \code{TRUE} = Use cache if available and
 save to cache, \code{FALSE} = Ignore cache if available and do not save to
 cache, \code{"flush"} = Ignore cache if available and save to cache.}
 }
