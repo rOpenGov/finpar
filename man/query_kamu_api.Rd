@@ -21,9 +21,11 @@ httr response object (JSON parsed to a list).
 \description{
 Function provides a single function to query KaMU API and an cache
 implementation. It also defines the base URL scheme for the API. API resource
-parameters are provided as arguments.
+parameters are provided a
 }
 \note{
+All NULL values from JSON responses are replaced by NAs.
+
 Currently response meta data is not used for anything.
 }
 \examples{

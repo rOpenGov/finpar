@@ -21,7 +21,7 @@
 #' 
 #' @export
 #' 
-#' @seealso \link{code{query_kamu_api}}
+#' @seealso \code{\link{query_kamu_api}}
 #' 
 #' @author Joona Lehtomaki <joona.lehtomaki@@gmail.com>
 #' 

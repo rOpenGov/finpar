@@ -41,6 +41,6 @@ term_2011 <- term(id=1)
 Joona Lehtomaki <joona.lehtomaki@gmail.com>
 }
 \seealso{
-\link{code{query_kamu_api}}
+\code{\link{query_kamu_api}}
 }
 

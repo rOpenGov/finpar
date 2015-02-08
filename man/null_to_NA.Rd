@@ -7,7 +7,8 @@
 null_to_NA(x)
 }
 \arguments{
-\item{x}{input data frame.}
+\item{x}{input data frame.
+s}
 }
 \value{
 a data frame with all NULLs replaced with NAs.
