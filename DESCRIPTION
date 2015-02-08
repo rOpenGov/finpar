@@ -14,9 +14,10 @@ License: file LICENSE
 Depends:
     R (>= 3.1.0),
     httr
+Imports:
+    R.cache
 Suggests:
     testthat,
     knitr,
-    R.cache
 BugReports: https://github.com/rOpenGov/finpar/issues
 VignetteBuilder: knitr
