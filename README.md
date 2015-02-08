@@ -11,9 +11,9 @@ Kansan Muisti website version 2.0 is currently under heavy development and `parl
 
 Currently, the following API endpoints are wrapped by `finpar`:
 
-| API endpoint                       | Function                           |
-|------------------------------------|------------------------------------|
-| [http://dev.kansanmuisti.fi/api/v1/term](http://dev.kansanmuisti.fi/static/api_v1_doc/index.html#api-Term) | `term()` |
+| Data                | API endpoint                       | Function                           |
+|---------------------|------------------------------------|------------------------------------|
+| Parliamentary terms | [http://dev.kansanmuisti.fi/api/v1/term](http://dev.kansanmuisti.fi/static/api_v1_doc/index.html#api-Term) | `term()` |
 
 ## Quick start
 
