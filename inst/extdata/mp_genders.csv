@@ -1,0 +1,831 @@
+"text","givenName","gender","correct_logical","correct_gender","genderIndicators"
+"Aaltonen, Markus Sakari","markus","male",1,"male",2
+"Stubb, Cai-Göran Alexander","alexander","male",1,"male",3
+"Ahde, Matti Allan","allan","male",1,"male",3
+"Saarakkala, Vesa-Matti","matti","male",1,"male",2
+"Aho, Esko Tapani","esko","male",1,"male",3
+"Piirainen, Raimo Olavi","raimo","male",1,"male",2
+"Jääskeläinen, Pietari Osmo","osmo","male",1,"male",1
+"Juurikkala, Timo Johannes","timo","male",1,"male",2
+"Jokinen, Kalle Johannes","johannes","male",1,"male",2
+"Aho, Raila Orvokki","aho","male",1,"male",2
+"Ahonen, Risto Sakari","risto","male",1,"male",2
+"Aittoniemi, Sulo Eerikki","sulo","male",1,"male",1
+"Ahvenjärvi, Sauli Sakari","sakari","male",1,"male",2
+"Mäkisalo-Ropponen, Merja Elina","merja","female",1,"female",2
+"Mäntylä, Hanna Katariina","hanna","female",1,"female",2
+"Autto, Heikki Samuli","heikki","male",1,"male",2
+"Ajo, Aimo Olavi","ajo","male",1,"male",2
+"Mäntymaa, Markku Antero","markku","male",1,"male",2
+"Mölsä, Martti Kullervo","martti","male",1,"male",1
+"Niikko, Mika Ilari","mika","male",1,"male",2
+"Eerola, Juho Seppo Antero","juho","male",1,"male",3
+"Eestilä, Markku Yrjö","markku","male",1,"male",1
+"Packalén, Tom Erik","tom","male",1,"male",2
+"Elomaa, Ritva Tuulikki","ritva","female",1,"female",2
+"Pekonen, Aino-Kaisa Ilona","ilona","female",1,"female",3
+"Pelkonen, Jaana Maarit","jaana","female",1,"female",2
+"Eloranta, Eeva-Johanna","johanna","female",1,"female",2
+"Donner, Jörn Johan","johan","male",1,"male",2
+"Grahn-Laasonen, Sanni Kaisa","kaisa","female",1,"female",2
+"Pirttilahti, Arto Väinö Uolevi","arto","male",1,"male",3
+"Salonen, Kristiina Johanna","johanna","female",1,"female",2
+"Gästgivars, Lars Erik","erik","male",1,"male",2
+"Haapanen, Satu Maria Kristiina","maria","female",1,"female",3
+"Sankelo, Janne Daniel","daniel","male",1,"male",2
+"Savola, Mikko Tapio","mikko","male",1,"male",2
+"Hakkarainen, Teuvo Mauno Kalervo","mauno","male",1,"male",2
+"Sipilä, Juha Petri","petri","male",1,"male",2
+"Halla-aho, Jussi Kristian","kristian","male",1,"male",4
+"Dromberg, Ritva Kaarina","ritva","female",1,"female",2
+"Soukola, Ismo Olavi","ismo","male",1,"male",2
+"Suutari, Eero Johannes","johannes","male",1,"male",2
+"Tainio, Hanna Maria","maria","female",1,"female",2
+"Tiainen, Eila Kyllikki","eila","female",1,"female",1
+"Toivola, Jani Petteri","jani","female",0,"male",2
+"Heikkilä, Lauri Juho Antti","lauri","female",0,"male",3
+"Tolppanen, Eeva Maria","maria","female",1,"female",2
+"Hirvisaari, James","james","male",1,"male",1
+"Tolvanen, Kari","kari","female",0,"male",1
+"Hongisto, Reijo Henrik","henrik","male",1,"male",2
+"Alho, Arja Inkeri","arja","female",1,"female",2
+"Torniainen, Ari Juhani","ari","male",1,"male",2
+"Ihalainen, Lauri Armas","lauri","female",0,"male",1
+"Immonen, Olli Juhani","olli","male",1,"male",2
+"Tossavainen, Reijo Sylvester","sylvester","male",1,"male",2
+"Jalonen, Ari Kristian","kristian","male",1,"male",2
+"Jungner, Juhani Mikael","mikael","male",1,"male",2
+"Tuppurainen, Tytti Johanna","johanna","female",1,"female",2
+"Jurva, Johanna Maria-Kaarina","maria","female",1,"female",3
+"Turunen, Kaj Valentin","valentin","male",1,"male",2
+"Juvonen, Arja Sinikka","sinikka","female",1,"female",2
+"Elo, Mikko Juhani","mikko","male",1,"male",3
+"Tuupainen, Kauko Ilmari","kauko","male",1,"male",2
+"Wallinheimo, Mika Sinuhe","mika","male",1,"male",2
+"Kalliorinne, Risto Olavi","risto","male",1,"male",2
+"Kari, Mika Pekka","kari","female",0,"male",3
+"Vikman, Maria Sofia Charlotta","maria","female",1,"female",3
+"Kauma, Pia Liisa","pia","female",1,"female",3
+"Vähämäki, Ville Petteri","ville","male",1,"male",2
+"Kiuru, Pauli Antero","pauli","female",0,"male",2
+"Kivelä, Kimmo Kyösti Väinämö","kimmo","male",1,"male",2
+"Väätäinen, Toivo Juha","juha","male",1,"male",2
+"Ala-Harja, Kirsti Raili","raili","female",1,"female",3
+"Kokko, Osmo Urmas","urmas","male",1,"male",3
+"Östman, Peter Johan","peter","male",1,"male",2
+"Kopra, Jukka Matti","jukka","male",1,"male",2
+"Koskela, Laila Margit","laila","female",1,"female",2
+"Kymäläinen, Suna Ellen","ellen","female",1,"female",2
+"Kärnä, Jukka Ensio","jukka","male",1,"male",2
+"Lindström, Jari Tapani","jari","male",1,"male",2
+"Lindtman, Antti Ilmari","antti","male",1,"male",2
+"Lohela, Maria Tuulia","maria","female",1,"female",1
+"Lohi, Markus Samuli","markus","male",1,"male",2
+"Ala-Kapee-Hakulinen (e. Ala-Kapee), Pirjo Anneli","pirjo","female",1,"female",3
+"Louhelainen, Anne Maarit","anne","female",1,"female",2
+"Maijala, 6.7.2012 Eeva-Maria Kustaava","maria","female",1,"female",2
+"Mattila, Pirkko Anneli","anneli","female",1,"female",2
+"Modig, Anna Silvia","anna","female",1,"female",2
+"Myllykoski, Jari Heikki","myllykoski","male",1,"male",3
+"Kontula, Anna Liisa","anna","female",1,"female",2
+"Männistö, Lasse Pekka","lasse","male",1,"male",2
+"Saarikko, Annika Virpi Irene","irene","female",1,"female",3
+"Fred (e. Pohjola), Jorma Lemmitty","fred","male",1,"male",2
+"Gustafsson, Jukka Tapani","jukka","male",1,"male",2
+"Alaranta, Heikki Juhani","heikki","male",1,"male",2
+"Haavisto, Pekka Olavi","pekka","male",1,"male",2
+"Hacklin, Pirkko Iiris Annikki","pirkko","female",1,"female",3
+"Almgren, Esko Kalevi","esko","male",1,"male",2
+"Andersson, Claes-Johan Rudolf (Claes)","johan","male",1,"male",4
+"Urpalainen, Anu Johanna","johanna","female",1,"female",2
+"Halonen, Tarja Kaarina","tarja","female",1,"female",2
+"Hautala, Sauli Tuomas","tuomas","male",1,"male",2
+"Heikkinen, Kauko Antero","antero","male",1,"male",2
+"Helle, Esko Antero","helle","female",0,"male",3
+"Hetemäki-Olander (e. Rinne, e. Hetemäki), Elsi Maria","maria","female",1,"female",2
+"Raatikainen, Mika Pekka","mika","male",1,"male",2
+"Hänninen, Katja Maria","maria","female",1,"female",2
+"Palola, Ari Juhana Mikael","mikael","male",1,"male",3
+"Lepomäki, Elina Maria","maria","female",1,"female",2
+"Anttila, Sirkka-Liisa","liisa","female",1,"female",2
+"Hietala, Pertti Vilho Antero","antero","male",1,"male",3
+"Antvuori, Pirjo-Riitta","pirjo","female",1,"female",2
+"Apukka, Asko Asser","asko","male",1,"male",1
+"Astala, Heli Hellevi","heli","female",1,"female",2
+"Hilpelä, Liisa Sisko","liisa","female",1,"female",2
+"Backman, Jouni Ensio","jouni","male",1,"male",1
+"Hokkanen, Matti Heikki Johannes","johannes","male",1,"male",3
+"Holvitie, Tapio Johannes","johannes","male",1,"male",2
+"Hurskainen (e. Hurskainen-Leppänen), Ulla Sinikka","ulla","female",1,"female",2
+"Huuhtanen, Jorma Kalevi","jorma","male",1,"male",2
+"Häkämies, Kari Pekka","kari","female",0,"male",2
+"Hämäläinen, Tuulikki Katriina","katriina","female",1,"female",2
+"Björklund, Ilkka-Christian","christian","male",1,"male",2
+"Ikkala, Olli Kustaa","olli","male",1,"male",1
+"Björkstrand, Hilding Gustav Mattias","mattias","male",1,"male",2
+"Ikonen, Pirkko Tuulikki","pirkko","female",1,"female",2
+"Bärlund, Kaj-Ole Johannes (Kaj)","johannes","male",1,"male",3
+"Isohookana-Asunmaa, Tytti Maria","maria","female",1,"female",2
+"Laaksonen, Timo Kalevi","timo","male",1,"male",2
+"Jaakonsaari, Liisa Anneli","liisa","female",1,"female",2
+"Jansson, Frey Gunnar Erkki","gunnar","male",1,"male",3
+"Joenpalo, Ilkka Eero Olavi","eero","male",1,"male",3
+"Lahtinen, Matti Heikki Juhani","matti","male",1,"male",3
+"Jokinen, Anna-Liisa","anna","female",1,"female",2
+"Jokiniemi, Esko Juhani","esko","male",1,"male",2
+"Lahtinen, Pertti Kalevi","pertti","male",1,"male",2
+"Jouppila, Riitta Maire Kaarina","riitta","female",1,"female",3
+"Lahti-Nuuttila, Pentti Juhani","pentti","male",1,"male",2
+"Juhantalo, Kauko Johannes","johannes","male",1,"male",2
+"Mäkinen (e. Jurva), Marita Anna-Liisa","anna","female",1,"female",3
+"Laitinen, Kauko Juhani","juhani","male",1,"male",2
+"Järvenpää, Heikki Mikael","mikael","male",1,"male",2
+"Lamminen, Nils Paavo Kalevi","nils","male",1,"male",3
+"Lapiolahti, Arto Kalervo","arto","male",1,"male",1
+"Laurila, Ritva Tellervo","ritva","female",1,"female",1
+"Järvisalo (e. Järvisalo-Kanerva), Riitta Irmeli","riitta","female",1,"female",2
+"Lax, Rolf Henrik Richard","richard","male",1,"male",4
+"Kalliomäki, Antti Tapani","antti","male",1,"male",2
+"Lehtosaari, Markku Antero","markku","male",1,"male",2
+"Leppänen, Pekka Verneri","pekka","male",1,"male",2
+"Leppänen, Urpo Olavi","olavi","male",1,"male",1
+"Kanerva, Ilkka Armas Mikael","mikael","male",1,"male",2
+"Liikanen, Erkki Antero","erkki","male",1,"male",2
+"Lindroos, Reijo Armas","reijo","male",1,"male",1
+"Linnainmaa, Tuula Maj-Lis","lis","female",1,"female",3
+"Louekoski, Matti Kalevi","matti","male",1,"male",2
+"Kankaanniemi, Toimi Olavi","olavi","male",1,"male",1
+"Louvo, Anna-Kaarina","anna","female",1,"female",2
+"Kauppinen, Riitta Anneli","anneli","female",1,"female",2
+"Kekkonen, Martti Antero","antero","male",1,"male",2
+"Luttinen, Vilho Matti","matti","male",1,"male",2
+"Kemppainen, Arvo Kari","kari","female",0,"male",2
+"Löyttyjärvi (e. Salminen), Marja-Liisa","liisa","female",1,"female",2
+"Kietäväinen, Timo Päivö Kalervo","timo","male",1,"male",1
+"Kasurinen (e. Piipari), Anna-Liisa","anna","female",1,"female",2
+"Maijala, Matti Jaakko","matti","male",1,"male",2
+"Jääskeläinen, Keijo Eero","eero","male",1,"male",2
+"Malm, Lars Håkan","håkan","male",1,"male",2
+"Jäätteenmäki, Anneli Tuulikki","anneli","female",1,"female",2
+"Mattila, Kalevi Kustaa","kalevi","male",1,"male",1
+"Kohijoki, Maunu Mikael","mikael","male",1,"male",1
+"Koistinen, Elsa Annikki","elsa","female",1,"female",2
+"Kokko, Heikki Sakarias","heikki","male",1,"male",3
+"Korkia-Aho, Martti Einar","einar","male",1,"male",3
+"Kortesalmi, Jouko Juhani (J. Juhani)","juhani","male",1,"male",2
+"Metsämäki, Lauri Juhani","lauri","female",0,"male",2
+"Kuuskoski (e. Kuuskoski-Vikatmaa), Eeva Maija Kaarina","maija","female",1,"female",3
+"Miettinen, Mauri Kalevi","mauri","male",1,"male",3
+"Kärhä, Lea Kyllikki","lea","female",1,"female",1
+"Moilanen, Anja Eeva-Liisa","liisa","female",1,"female",3
+"Kääriäinen, Seppo Arimo","seppo","male",1,"male",1
+"Myller, Riitta Mailis Mirjami","riitta","female",1,"female",3
+"Ollila, Heikki Antero (Heikki A.)","heikki","male",1,"male",2
+"Paakkinen, Saara-Maria","maria","female",1,"female",2
+"Paasilinna, Reino Kalervo","reino","male",1,"male",1
+"Paasio, Pertti Kullervo","pertti","male",1,"male",1
+"Mäkelä, Tina Elise","tina","female",1,"female",2
+"Pihlajamaa (e. Sarja, e. Hautamäki, e. Paavilainen), Tuula Kaarina","tuula","female",1,"female",2
+"Paloheimo, Eero Kalervo","eero","male",1,"male",1
+"Pekkarinen, Reijo Mauri Matias","matias","male",1,"male",3
+"Pelttari, Seppo Viljo","seppo","male",1,"male",2
+"Mäkipää, Lea Kaarina","lea","female",1,"female",2
+"Perho, Martti Heikki","heikki","male",1,"male",2
+"Pesola, Anja Helena","helena","female",1,"female",2
+"Laisaari, Taru Sinikka","taru","female",1,"female",2
+"Pesälä, Veijo Mikko","mikko","male",1,"male",2
+"Pohjanoksa, Aino Siviä","aino","female",1,"female",1
+"Mörttinen, Tapani Johannes","johannes","male",1,"male",2
+"Nieminen, Niilo Einari","niilo","male",1,"male",1
+"Niinistö, Sauli Väinämö","sauli","male",1,"male",1
+"Nordman, Bengt Håkan","håkan","male",1,"male",2
+"Nyby, Mats Bertil","mats","male",1,"male",2
+"Nyman, Per-Henrik","henrik","male",1,"male",2
+"Pietikäinen, Sirpa Maria","maria","female",1,"female",2
+"Rajamäki, Kari Juhani","kari","female",0,"male",2
+"Ranta, Jussi Yrjö Kalevi","jussi","male",1,"male",2
+"Rantanen, Jorma Kaarlo Vilho","jorma","male",1,"male",3
+"Rauramo, Anssi Mauno Heikki","heikki","male",1,"male",3
+"Rehn, Märta Elisabeth","märta","female",1,"female",2
+"Renko (e. Nousiainen), Terttu Tellervo","terttu","female",1,"female",1
+"Sorsa, Taisto Kalevi","kalevi","male",1,"male",1
+"Pohjola, Markku Juhani","markku","male",1,"male",2
+"Pokka, Pirkko Hannele","hannele","female",1,"female",2
+"Puhakka, Matti Juhani","matti","male",1,"male",2
+"Puisto, Virpa Terhikka",NA,NA,0,"female",0
+"Pulliainen, Erkki Ossi Olavi","erkki","male",1,"male",3
+"Puolanne, Ulla Kaija","ulla","female",1,"female",2
+"Puska, Pekka Matti Jaakko","matti","male",1,"male",3
+"Pystynen, Erkki Topias","erkki","male",1,"male",1
+"Renlund, Boris Elof Vilhelm","boris","male",1,"male",2
+"Riihijärvi, Heikki Anssi","heikki","male",1,"male",2
+"Rinne, Heikki Untamo","heikki","male",1,"male",1
+"Roos, Jukka Antero","jukka","male",1,"male",3
+"Roos, Timo Antero","timo","male",1,"male",3
+"Rusanen, Pirjo Maija","pirjo","female",1,"female",2
+"Ryynänen, Anja Mirja Kerttuli","anja","female",1,"female",2
+"Väistö, Matti Kalervo","matti","male",1,"male",1
+"Röntynen, Kalle Herman","herman","male",1,"male",2
+"Saarinen, Matti Kalervo","matti","male",1,"male",1
+"Seppänen, Esko Olavi","esko","male",1,"male",2
+"Savela, Veikko Oiva","veikko","male",1,"male",1
+"Saapunki, Pauli Johannes","johannes","male",1,"male",2
+"Saari, Aapo Juhani","juhani","male",1,"male",2
+"Saastamoinen, Ulla Riitta","ulla","female",1,"female",2
+"Salolainen, Pertti Edvard","edvard","male",1,"male",2
+"Sarapää, Kimmo Juhani","kimmo","male",1,"male",2
+"Sasi, Kimmo Kalevi Immeri","kimmo","male",1,"male",3
+"Savolainen, Lea Tuulikki","lea","female",1,"female",2
+"Siitonen, Eva-Riitta","eva","female",1,"female",2
+"Sillanpää, Juho Hermanni (Jussi)","jussi","male",1,"male",3
+"Soininvaara, Osmo Heikki Kristian","kristian","male",1,"male",3
+"Siuruainen, Eino Olavi","olavi","male",1,"male",2
+"Skinnari, Jouko Juhani","juhani","male",1,"male",2
+"Särkijärvi, Jouni Juhani (Jouni J.)","jouni","male",1,"male",2
+"Turunen, Eeva Annikki","eeva","female",1,"female",2
+"Väänänen, Helmi Marjatta","helmi","male",0,"female",2
+"Stenius-Kaukonen (e. Stenius, e. Mattsson), Minna Marjatta","minna","female",1,"female",2
+"Suominen, Ilkka Olavi","ilkka","male",1,"male",2
+"Säilynoja, Vappu Johanna","johanna","female",1,"female",2
+"Taina, Anneli Kristiina","anneli","female",1,"female",3
+"Taxell, Lars Evald Christoffer","lars","male",1,"male",3
+"Tenhiälä, Hannu Yrjänä","hannu","male",1,"male",1
+"Tennilä, Esko-Juhani","esko","male",1,"male",2
+"Tiuri, Martti Eelis","martti","male",1,"male",1
+"Wahlström, Jarmo Johannes","johannes","male",1,"male",2
+"Valli, Sakari Esa","esa","male",1,"male",3
+"Valo, Tauno Valter","valter","male",1,"male",3
+"Tykkyläinen, Marja-Liisa","liisa","female",1,"female",2
+"Varpasuo, Päivi Paula Annikki","paula","female",1,"female",3
+"Tähkämaa (v:een 1935 Blomqvist), Taisto Toivo Johannes","johannes","male",1,"male",2
+"Vastamäki, Ritva Annikki","ritva","female",1,"female",2
+"Wasz-Höckert, Bror Ole","ole","male",1,"male",2
+"Törnqvist, Kerttu Annikki","kerttu","female",1,"female",2
+"Vennamo, Pekka Veikko","pekka","male",1,"male",2
+"Uitto, Pauli Henrik","henrik","male",1,"male",2
+"Uosukainen, Riitta Maria","maria","female",1,"female",2
+"Vihriälä, Jukka Pekka","jukka","male",1,"male",2
+"Viinanen, Iiro Tahvo Juhani","juhani","male",1,"male",2
+"Viljanen, Matti Juhani","matti","male",1,"male",2
+"Vistbacka, Raimo Viljam","raimo","male",1,"male",1
+"Vuoristo, Raimo Johannes","johannes","male",1,"male",2
+"Urpilainen, Kari Johannes","kari","female",0,"male",2
+"Vähäkangas, Martti Juhani","juhani","male",1,"male",2
+"Vähänäkki, Matti Kalervo","matti","male",1,"male",1
+"Väyrynen, Paavo Matti","matti","male",1,"male",2
+"Zyskowicz, Ben Berl","ben","male",1,"male",2
+"Holkeri, Harri Hermanni","harri","male",1,"male",2
+"Norrback, Johan Ole","johan","male",1,"male",2
+"Pohjala, Toivo Topias (Toivo T.)","toivo","male",1,"male",1
+"Kettunen, Pentti Herman","herman","male",1,"male",2
+"Kautto, Tarja Helena","helena","female",1,"female",2
+"Söderman, Jacob-Magnus (Jacob)","jacob","male",1,"male",2
+"Joutsensaari, Kaarlo Gunnar Johannes","gunnar","male",1,"male",3
+"Jyrkilä, Reino","reino","male",1,"male",1
+"Raudaskoski, Väinö Matias","matias","male",1,"male",2
+"Iivari, Ulpu Marjatta","marjatta","female",1,"female",1
+"Kemppainen, Hannu Samuli","hannu","male",1,"male",2
+"Lemström, Kaarlo Rainer","rainer","male",1,"male",2
+"Skön, Pentti Olavi","pentti","male",1,"male",2
+"Suonio, Kaarina Elisabeth","elisabeth","female",1,"female",2
+"Jokela, Mikko Eljas Eenokki","mikko","male",1,"male",1
+"Kalima, Kai-Erik Klaus (Kai)","erik","male",1,"male",3
+"von Bell, Aarno Juhani","bell","female",0,"male",3
+"Muttilainen, Kyllikki Hellevi","hellevi","female",1,"female",1
+"Biaudet, Eva Rita Katarina","eva","female",1,"female",3
+"Hautala, Heidi Anneli","heidi","female",1,"female",2
+"Lipponen, Paavo Tapio","tapio","male",1,"male",2
+"Luukkainen, Hannele Marja-Liisa","liisa","female",1,"female",3
+"Ojala, Outi Marjatta","outi","female",1,"female",2
+"Rehn, Olli Ilmari","olli","male",1,"male",2
+"Tuomioja, Erkki Sakari","erkki","male",1,"male",2
+"Koskinen, Hannu Erkki Johannes","johannes","male",1,"male",3
+"Lindqvist, Maija-Liisa","liisa","female",1,"female",2
+"Räty, Pekka Kullervo","pekka","male",1,"male",1
+"Saario, Väinö Sakari","sakari","male",1,"male",2
+"Toivonen, Kyösti Tapio","tapio","male",1,"male",2
+"Hassi, Satu Maijastiina","satu","female",1,"female",2
+"Laukkanen, Vesa Johannes","johannes","male",1,"male",3
+"Morri, Helmi Esteri","helmi","male",0,"female",2
+"Ojala, Arja Orvokki","arja","female",1,"female",2
+"Rimmi, Eila Marjatta","eila","female",1,"female",3
+"Takala, Irmeli Johanna","johanna","female",1,"female",2
+"Vuorensola, Markku Ilmari","markku","male",1,"male",2
+"Laitinen, Reijo Kalevi","kalevi","male",1,"male",2
+"Leppänen, Frans Johannes","johannes","male",1,"male",2
+"Suhola, Aino Kyllikki","aino","female",1,"female",1
+"Viljamaa, Marja-Leena","leena","female",1,"female",3
+"Polvi, Iivo Alvari",NA,NA,0,"male",0
+"Rossi, Markku Kalevi","rossi","male",1,"male",3
+"Laukkanen, Markku Matti","matti","male",1,"male",3
+"Liikkanen, Raimo Juhani","juhani","male",1,"male",2
+"Puhakka, Raili Kyllikki","raili","female",1,"female",1
+"Pykäläinen, Tuija Maaret Sinikka (Tuija Maaret)","tuija","female",1,"female",3
+"Aula, Maria Kaisa","maria","female",1,"female",3
+"Korva, Timo Ensio (Timo E.)","timo","male",1,"male",1
+"Näsi, Lasse Juhani","lasse","male",1,"male",2
+"Rask, Maija-Liisa (Maija)","liisa","female",1,"female",2
+"Komi, Armas Kalervo",NA,NA,0,"male",0
+"Lahikainen, Erja Helena","helena","female",1,"female",2
+"Korhonen, Martti Allan","allan","male",1,"male",2
+"Koski, Markku Aulis","markku","male",1,"male",2
+"Polvinen, Osmo Antero Juhani","juhani","male",1,"male",3
+"Ukkola, Lahja Tuulikki","tuulikki","female",1,"female",1
+"Ikonen-Graafmans (e. Ikonen, e. Kuittinen), Tuula Sisko Kaarina","tuula","female",1,"female",3
+"Laakkonen, Pirkko Anneli","anneli","female",1,"female",2
+"Ala-Nissilä, Olavi Oskari","ala","female",0,"male",3
+"Enestam, Jan-Erik","jan","male",1,"male",2
+"Järvilahti, Timo Juhani","timo","male",1,"male",2
+"Kaarilahti, Marjut Hannele","hannele","female",1,"female",2
+"Laivoranta, Jarmo Juhani","jarmo","male",1,"male",2
+"Perho (Perho-Santala), Maija Riitta","maija","female",1,"female",2
+"Rönnholm, Mikko Armas","mikko","male",1,"male",1
+"Seivästö, Ismo Eero","eero","male",1,"male",2
+"Suhonen, Hannu Uolevi","hannu","male",1,"male",2
+"Hiltunen, Leea Lea Elisabeth","lea","female",1,"female",3
+"Kalli, Timo Juhani","timo","male",1,"male",3
+"Korkeaoja, Juha Sakari","juha","male",1,"male",2
+"Anttila, Ulla Mari Ainikki","mari","female",1,"female",2
+"Jääskeläinen, Jouko Tapani","jouko","male",1,"male",2
+"Karhunen, Minna Helena","helena","female",1,"female",2
+"Laakso, Jaakko Tapani","jaakko","male",1,"male",2
+"Lehtinen, Leila Elisabet","leila","female",1,"female",3
+"Luhtanen, Leena Marjatta","leena","female",1,"female",2
+"Markkula-Kivisilta (e. Markkula), Hanna Elina","hanna","female",1,"female",2
+"Mölsä, Tero Sulevi","tero","male",1,"male",1
+"Nikula, Paavo Antti Juhani","antti","male",1,"male",3
+"Pietikäinen, Margareta","margareta","female",1,"female",1
+"Vanhanen, Matti Taneli","matti","male",1,"male",2
+"Viljanen, Pekka Einari","pekka","male",1,"male",1
+"Björkenheim, Hildegard Rose-Marie","marie","female",1,"female",3
+"Kallis, Johan Bjarne","johan","male",1,"male",2
+"Vehkaoja, Liisa Marjatta Ilona","ilona","female",1,"female",3
+"Virrankoski, Kyösti Tapio","tapio","male",1,"male",2
+"Heinonen, Olli-Pekka","pekka","male",1,"male",2
+"Könkkölä, Kalle Kustaa Topias","kalle","male",1,"male",1
+"Pura, Martti Heikki","heikki","male",1,"male",3
+"Ihamäki, Timo Heikki Juhani","timo","male",1,"male",3
+"Kivelä, Pekka Olavi","pekka","male",1,"male",2
+"Ääri, Saimi Annikki","annikki","female",1,"female",2
+"Piha, Kirsi Katariina","kirsi","female",1,"female",2
+"Korteniemi, Ossi Eemeli","ossi","male",1,"male",2
+"Kuoppa, Mikko Kalevi","mikko","male",1,"male",2
+"Mikkola, Jukka Sakari","jukka","male",1,"male",2
+"Andersson, Janina Maria","maria","female",1,"female",3
+"Aura, Matti Ilmari","aura","female",1,"female",3
+"Brax, Tuija Kaarina","tuija","female",1,"female",2
+"Bremer, Klaus Ilmari","klaus","male",1,"male",2
+"Bryggare, Arto Kalervo","arto","male",1,"male",1
+"Filatov, Tarja Katarina","katarina","female",1,"female",2
+"Hellberg, Klaus Raul Emil","raul","male",1,"male",3
+"Huotari, Anne Päivi Aulikki","anne","female",1,"female",2
+"Huttu-Juntunen (Huttu), Terttu Aulikki","terttu","female",1,"female",1
+"Hyssälä, Liisa Marja","liisa","female",1,"female",2
+"Immonen, Mikko Antero","mikko","male",1,"male",2
+"Itälä, Ville Heimo Antero","ville","male",1,"male",3
+"Juurola, Ulla-Maija (Ulla)","ulla","female",1,"female",2
+"Kallio, Reijo Kalevi","kalevi","male",1,"male",3
+"Kantalainen, Kari Sakari","kari","female",0,"male",2
+"Karjalainen, Tapio Seppo","tapio","male",1,"male",2
+"Karjula, Kyösti Juhani","juhani","male",1,"male",2
+"Karpio, Juha Ilmari","juha","male",1,"male",2
+"Kiljunen, Kimmo Roobert","kimmo","male",1,"male",1
+"Kiviniemi, Mari Johanna","johanna","female",1,"female",2
+"Knaapi-Lamminen, Anne Kaarina","anne","female",1,"female",2
+"Kokkonen, Paula Tellervo","paula","female",1,"female",1
+"Korhonen, Riitta-Liisa (Riitta)","liisa","female",1,"female",2
+"Koski, Valto Kalevi","kalevi","male",1,"male",1
+"Koskinen, Heikki Sakari","heikki","male",1,"male",2
+"Koskinen, Elise Marjaana","elise","female",1,"female",2
+"Krohn, Irina Kaarina","irina","female",1,"female",2
+"Kuisma, Risto Martti Antero","risto","male",1,"male",3
+"Kukkonen, Jorma Viljami","jorma","male",1,"male",2
+"Wideroos (e. Kukkonen), Cecilia Ulla-Maj","cecilia","female",1,"female",3
+"Kuosmanen, Pekka Kalevi","pekka","male",1,"male",2
+"Kurola, Osmo Aarne","aarne","male",1,"male",2
+"Lahtela, Esa Esko","esa","male",1,"male",2
+"Lapintie, Annika Anita","anita","female",1,"female",2
+"Lindén, Suvi Helmi Tellervo","suvi","female",1,"female",3
+"Lämsä, Eero Hannu","hannu","male",1,"male",2
+"Löv, Pehr Johan Andreas","andreas","male",1,"male",3
+"Manninen, Hannes","hannes","male",1,"male",1
+"Markkula, Markku Antero","markku","male",1,"male",2
+"Mähönen, Raimo Aulis","raimo","male",1,"male",2
+"Nurmi, Tuija Anna-Liisa","anna","female",1,"female",4
+"Ojala, Reino Johannes","johannes","male",1,"male",2
+"Olin, Kalevi Anders Wilhelm","anders","male",1,"male",4
+"Partanen, Erkki Juhani","erkki","male",1,"male",2
+"Pehkonen, Tauno Kalevi","kalevi","male",1,"male",2
+"Peltomo, Pirkko Orvokki","pirkko","female",1,"female",2
+"Penttilä, Risto Erkki Juhani","risto","male",1,"male",3
+"Pohjola, Tuija Anne Marjut","anne","female",1,"female",3
+"Prusti, Riitta Anneli","anneli","female",1,"female",2
+"Puhjo, Veijo Olavi","veijo","male",1,"male",2
+"Ranta-Muotio, Aulis Venneri","aulis","female",0,"male",2
+"Rehn, Vuokko Kaarin Päivikki","vuokko","female",1,"female",3
+"Rosendahl, Ola Mikael","mikael","male",1,"male",2
+"Räsänen, Päivi Maria","maria","female",1,"female",2
+"Smeds, Sakari","sakari","male",1,"male",1
+"Tahvanainen, Säde Maarit","maarit","female",1,"female",2
+"Takkula, Hannu Tapani","hannu","male",1,"male",2
+"Tarkka, Jukka Tapio","jukka","male",1,"male",2
+"Tiilikainen, Raimo Taisto Johannes","johannes","male",1,"male",2
+"Tiusanen, Pentti Uolevi","pentti","male",1,"male",2
+"Tulonen, Irja Marjatta","irja","female",1,"female",2
+"Uotila, Kari Antero","kari","female",0,"male",2
+"Vehviläinen, Anu Helena","helena","female",1,"female",2
+"Veteläinen, Maija-Liisa","liisa","female",1,"female",2
+"Viitamies, Janne Sakari","janne","female",0,"male",2
+"Viitanen, Pia-Liisa (Pia)","pia","female",1,"female",2
+"Virtanen, Pertti Olavi","pertti","male",1,"male",2
+"Vokkolainen, Jorma Kalevi","jorma","male",1,"male",2
+"Ryhänen, Matti Johannes","johannes","male",1,"male",2
+"Salo, Mauri Mikael","mikael","male",1,"male",3
+"Myllyniemi, Kari Kalervo","kari","female",0,"male",1
+"Holopainen, Raimo Tapani","raimo","male",1,"male",2
+"Koskinen, Jari Antero","jari","male",1,"male",2
+"Siimes, Outi Inkeri","outi","female",1,"female",2
+"Haatainen, Tuula Irmeli","tuula","female",1,"female",2
+"Kanerva, Seppo Ahti Ilmari","seppo","male",1,"male",3
+"Laine, Reino Kalevi","laine","female",0,"male",3
+"Rehula, Juha Tapani","juha","male",1,"male",2
+"Saarnio, Pekka Olavi","pekka","male",1,"male",2
+"Vartiainen, Helena","helena","female",1,"female",1
+"Sjöblom, Touko Juhani","juhani","male",1,"male",2
+"Mertjärvi, Rauha-Maria","maria","female",1,"female",1
+"Huutola, Matti Ilmari","matti","male",1,"male",2
+"Siimes, Sini Maaria Suvi-Anne","anne","female",1,"female",4
+"Lekman, Sirkka Liisa","liisa","female",1,"female",2
+"Aho, Hannu Tapio","hannu","male",1,"male",3
+"Akaan-Penttilä, Eero Erkki Emanuel","emanuel","male",1,"male",3
+"Erlund, Rainer Vilhelm","rainer","male",1,"male",2
+"Forsius, Merikukka",NA,NA,0,"female",0
+"Granvik, Nils-Anders Ingemar","anders","male",1,"male",3
+"Harkimo, Leena-Kaisa (Leena)","leena","female",1,"female",2
+"Hemmilä, Pertti Aatos","pertti","male",1,"male",1
+"Hiltunen, Lea Rakel","lea","female",1,"female",2
+"Huovinen, Krista Anri Susanna","krista","female",1,"female",3
+"Häkämies, Jyri Jukka","jukka","male",1,"male",2
+"Kanerva, Erkki Evert","erkki","male",1,"male",2
+"Karhu, Saara Elina","elina","female",1,"female",2
+"Karpela, Tanja Tellervo","tanja","female",1,"female",1
+"Karttunen (e. Karttunen-Raiskio), Marjukka Eija","eija","female",1,"female",2
+"Katainen, Jyrki Tapani","jyrki","male",1,"male",2
+"Kemppainen, Marja-Leena","leena","female",1,"female",2
+"Keränen, Niilo Johannes","johannes","male",1,"male",2
+"Komi, Katri Helena","helena","female",1,"female",2
+"Kummola, Kalervo Juhani","juhani","male",1,"male",1
+"Kurvinen, Esko Anton","anton","male",1,"male",2
+"Kähkönen, Lauri Risto Kalevi","lauri","female",1,"female",3
+"Kärkkäinen, Kari Juhani","kari","female",0,"male",2
+"Lahtela, Seppo Tapio","tapio","male",1,"male",2
+"Lehtimäki, Jouni Vesa Johannes","johannes","male",1,"male",3
+"Lehtomäki, Paula Ilona","paula","female",1,"female",2
+"Leppä, Jari Juhani","jari","male",1,"male",2
+"Lintilä, Mika Tapani","mika","male",1,"male",2
+"Mäki-Hakola, Pertti Eerik","mäki","female",0,"male",3
+"Nepponen, Olli Erik","erik","male",1,"male",2
+"Nousiainen, Pekka Evert Juhani","pekka","male",1,"male",3
+"Oinonen, Lauri Juhani","lauri","female",1,"female",2
+"Ojansuu-Kaunisto, Kirsi Johanna","johanna","female",1,"female",2
+"Paasio, Heli Tuulikki","heli","female",1,"female",2
+"Puhakka, Osmo Heikki","heikki","male",1,"male",2
+"Rahkonen, Susanna Irene","irene","female",1,"female",2
+"Rantakangas, Antti Toivo Armas","antti","male",1,"male",2
+"Rauhala, Leena Maria","maria","female",1,"female",2
+"Ravi, Pekka Tapani","ravi","male",1,"male",3
+"Rönni, Tero Matti Johannes","tero","male",1,"male",4
+"Salo, Petri Antti Juhani","petri","male",1,"male",4
+"Seppälä, Arto Eemil","arto","male",1,"male",1
+"Seppälä, Jorma Timo Antero","timo","male",1,"male",3
+"Sinnemäki, Anni Milja Maaria","anni","female",1,"female",3
+"Syvärinen, Katja Maarika","katja","female",1,"female",1
+"Tiura, Marja Johanna","johanna","female",1,"female",2
+"Turtiainen, Pertti Kalevi","pertti","male",1,"male",2
+"Valpas, Unto Olavi","olavi","male",1,"male",2
+"Vahasalo, Raija Elina","elina","female",1,"female",2
+"Vilén, Jari Pekka Olavi","jari","male",1,"male",3
+"Vilkuna, Ilkka Pekka Väinämö","pekka","male",1,"male",2
+"Virén, Lasse Artturi","lasse","male",1,"male",2
+"Wallin, Harry Olavi","harry","male",1,"male",2
+"Ylä-Mononen, Jaana Maria","maria","female",1,"female",2
+"Neittaanmäki, Petri Juhani","petri","male",1,"male",2
+"Sarkomaa, Sari Johanna","johanna","female",1,"female",2
+"Kerola, Eeva Inkeri","eeva","female",1,"female",2
+"Kangas, Matti Eino Antero","matti","male",1,"male",3
+"Taipale, Väinö Ilkka Ilari","ilkka","male",1,"male",3
+"Gestrin, Anna Christina","anna","female",1,"female",2
+"Holmlund, Anne Elisabeth","anne","female",1,"female",2
+"Salovaara, Pertti Eero Olavi","eero","male",1,"male",3
+"Halme, Tony Christian","tony","male",1,"male",2
+"Asko-Seljavaara, Sirpa Liisa (Sirpa)","liisa","female",1,"female",3
+"Lahti, Jere Kaleva","jere","male",1,"male",1
+"Vapaavuori, Jan Pellervo","jan","male",1,"male",1
+"Soini, Timo Juhani","timo","male",1,"male",2
+"Heinäluoma, Eero Olavi","eero","male",1,"male",2
+"Nylander, Mikaela Birgitta","mikaela","female",1,"female",2
+"Thors, Astrid Margareta Gunilla","gunilla","female",1,"female",3
+"Kasvi, Jyrki Jouko Juhani","juhani","male",1,"male",3
+"Kaikkonen, Antti Samuli","antti","male",1,"male",2
+"Särkiniemi, Seppo Antero","antero","male",1,"male",2
+"Lankia, Eero Uolevi","eero","male",1,"male",2
+"Matikainen-Kallström, Marjo Tuulevi","marjo","female",1,"female",1
+"Saarikangas, (Martin) Jarl-Martin Alexander","martin","male",1,"male",3
+"Hemming, Katri Hanna-Leena","hanna","female",1,"female",3
+"Essayah, Sari Miriam","miriam","female",1,"female",2
+"Kiviranta, Esko Emil","emil","male",1,"male",2
+"Jansson, Roger Karl Helge","roger","male",1,"male",3
+"Kauppila, Matti Einari","matti","male",1,"male",1
+"Taiveaho, Satu Kirsikka","satu","female",1,"female",2
+"Lintonen, Minna Helena","helena","female",1,"female",2
+"Satonen, Arto Olavi","arto","male",1,"male",2
+"Pentti, Klaus Arvo Aksel","klaus","male",1,"male",4
+"Alatalo, Mikko Tapio","mikko","male",1,"male",2
+"Meriläinen, Rosa Anneli","rosa","female",1,"female",2
+"Sirnö, Minna Maaria","minna","female",1,"female",2
+"Paajanen, Reijo Kalevi","kalevi","male",1,"male",2
+"Tiilikainen, Kimmo Kalevi","kimmo","male",1,"male",2
+"Kiljunen, Leila Anneli","leila","female",1,"female",2
+"Kettunen, Rauno Olavi","rauno","male",1,"male",2
+"Virtanen, Erkki Alvar","erkki","male",1,"male",2
+"Väätäinen, Tuula Anneli","anneli","female",1,"female",2
+"Cronberg, Tarja Anneli","anneli","female",1,"female",2
+"Reijonen, Eero Juhani","eero","male",1,"male",2
+"Hoskonen, Hannu Tapio","hannu","male",1,"male",2
+"Moilanen, Riikka Leena","leena","female",1,"female",2
+"Hänninen, Tuomo Juhani","tuomo","male",1,"male",2
+"Tölli, Tapani Olavi","olavi","male",1,"male",3
+"Rajala, Lyly Paavo Juhani","lyly","female",0,"male",3
+"Mustajärvi, Markus","markus","male",1,"male",1
+"Rundgren, Simo Arttur","simo","male",1,"male",1
+"Ahonen, Esko Olavi","esko","male",1,"male",2
+"Hautala, Lasse Tapani","lasse","male",1,"male",2
+"Haapoja, Aino Maria Susanna","maria","female",1,"female",3
+"Kumpula-Natri, Miapetra Susanna","susanna","female",1,"female",1
+"Urpilainen, Jutta Pauliina","pauliina","female",1,"female",2
+"Risikko, Paula Sinikka","paula","female",1,"female",2
+"Vielma, Ahti Kalervo","ahti","male",1,"male",1
+"Paloniemi, Aila Annikki","aila","female",1,"female",2
+"Mäkinen, Heikki Tapani","heikki","male",1,"male",2
+"Tynkkynen, Topi Oras Kalevi","topi","male",1,"male",2
+"Laxell, Jouko Ilmari","jouko","male",1,"male",2
+"Peltokorpi, Terhi Päivikki","terhi","female",1,"female",2
+"Karvonen, Tatja Marushka","marushka","female",1,"female",1
+"Niinistö, Jussi Lauri Juhani","lauri","female",1,"female",3
+"Paatero, Sirpa Hannele","hannele","female",1,"female",2
+"Sumuvuori, Sari Johanna","johanna","female",1,"female",2
+"Martikainen, Veikko Olavi","olavi","male",1,"male",2
+"Surakka, Väinö Juhani","juhani","male",1,"male",2
+"Virolainen (e. Stenros), Eeva Kyllikki","eeva","female",1,"female",1
+"Asunmaa, Asser Matias (Matti)","matias","male",1,"male",2
+"Borg, Olavi Allan","allan","male",1,"male",2
+"Ekorre, Mikko Erik","erik","male",1,"male",2
+"Forsman, Mauno Veikko","mauno","male",1,"male",2
+"Heino-Vesihiisi (e. Heino), Tyyni Maija","maija","female",1,"female",2
+"Hakala, Matti Eero","matti","male",1,"male",2
+"Hannola, Matti","matti","male",1,"male",1
+"Hellström, Pähr-Einar","einar","male",1,"male",1
+"Hongisto, Joel Mikael","joel","male",1,"male",2
+"Hyrynkangas, Helvi Inkeri","helvi","female",1,"female",2
+"Hyvönen, Anna-Liisa","anna","female",1,"female",2
+"Häggblom, Gunnar Bertel","gunnar","male",1,"male",2
+"Hämäläinen, Niilo Eemeli","eemeli","male",1,"male",2
+"Itälä, Jaakko","jaakko","male",1,"male",2
+"Jokinen, Antti Pekka","antti","male",1,"male",2
+"Juhola, Vuokko Onerva","vuokko","female",1,"female",2
+"Juntumaa (v:een 1940 Juntunen), Armo Eino Antero","antero","male",1,"male",3
+"Kivitie-Koskinen (v:een 1962 Vuorinen), Eeva Anneli","anneli","female",1,"female",2
+"Järvilehto, Ulla Elina Tuulikki","ulla","female",1,"female",3
+"Järvinen, Sven-Erik","erik","male",1,"male",2
+"Kainulainen, Heikki Olavi","heikki","male",1,"male",2
+"Kainulainen, Markus","markus","male",1,"male",1
+"Kangas, Ilmi Orvokki","ilmi","female",1,"female",2
+"Katajavuori, Salme Vuokko","vuokko","female",1,"female",2
+"Kauppi, Eeva Ottilia","eeva","female",1,"female",1
+"Kauppila, Orvokki Sinikka","sinikka","female",1,"female",2
+"Kauppinen, Markku Johannes","johannes","male",1,"male",2
+"Kohtala, Leo Johannes","leo","male",1,"male",2
+"Koivisto, Taimi Tellervo","taimi","female",1,"female",1
+"Korhonen, Erkki","erkki","male",1,"male",1
+"Kurppa, Mauno Johannes","johannes","male",1,"male",2
+"Laatio (v:een 1932 Lindfors), Kaino Gunnar","gunnar","male",1,"male",1
+"Laitinen, Aili Anja Aleksandra","anja","female",1,"female",3
+"Lampinen, Arto Erkki Juhani","arto","male",1,"male",3
+"Lankinen, Sirkka","sirkka","female",1,"female",1
+"Lehtinen, Lasse Antero","lasse","male",1,"male",3
+"Linkomies-Pohjala (e. Karhuvaara), Sinikka Sorella","sinikka","female",1,"female",1
+"Linna, Lauri Johannes","johannes","male",1,"male",3
+"Loikkanen, Eino Aleksander","aleksander","male",1,"male",2
+"Manninen, Mauno","mauno","male",1,"male",1
+"Matikkala, Veikko Juhani","juhani","male",1,"male",2
+"Mykkänen, Jouni","jouni","male",1,"male",1
+"Mäkelä, Jouko Vihtori","jouko","male",1,"male",1
+"Mäkynen, Toivo Henrik","henrik","male",1,"male",2
+"Mänttäri, Aune","aune","female",1,"female",1
+"Niemelä, Arttur (Artturi) Antero","antero","male",1,"male",1
+"Nieminen-Mäkynen (e. Nieminen), Terhi Eila Helena","helena","female",1,"female",3
+"Niskanen, Helvi Annikki","annikki","female",1,"female",2
+"Orrenmaa, Heikki Juhani","heikki","male",1,"male",2
+"Pajunen, Veikko Juhani","juhani","male",1,"male",2
+"Palmunen, Lauri Ilmari","lauri","female",1,"female",2
+"Pekonen, Esko Einar","einar","male",1,"male",2
+"Peltola, Kati Kaarina Marjatta","kati","female",1,"female",3
+"Pelttari, Matti Juhani","matti","male",1,"male",2
+"Päivinen, Raimo Ensio","raimo","male",1,"male",1
+"Rainio, Kullervo",NA,NA,0,"male",0
+"Rantala, Jorma Onni Olavi","jorma","male",1,"male",3
+"Raudasoja, Johan (Juhani) Vilhelmi","johan","male",1,"male",2
+"Rautiainen, Väinö Armas","väinö","male",1,"male",1
+"Rekonen, Heimo Nestori",NA,NA,0,"male",0
+"Ruotsalainen, Unto Aarne","aarne","male",1,"male",2
+"Salmivuori, Kaarle Frans Aleksander","frans","male",1,"male",2
+"Saukko, Alvar Johannes","johannes","male",1,"male",2
+"Saukkonen, Veikko Antti Juhani","antti","male",1,"male",3
+"Savola, Petter Eerik Mikael","mikael","male",1,"male",3
+"Sigfrids, Elly Matilda","elly","female",1,"female",2
+"Sipiläinen, Kyösti Juhani","juhani","male",1,"male",2
+"Sirén, Helge Sulo","helge","male",1,"male",3
+"Stenbäck, Asser Immanuel","immanuel","male",1,"male",1
+"Sundqvist, Ulf Ludvig","ulf","male",1,"male",2
+"Suokas, Viljo","viljo","male",1,"male",1
+"Suomi, Oili",NA,NA,0,"female",0
+"Syrjä, Eino Kalervo","eino","female",0,"male",1
+"Talvitie, Helge Jorma Johannes","johannes","male",1,"male",3
+"Tapiola, Hannu Yrjö Sakari","hannu","male",1,"male",2
+"Tarjanne, Pekka Johannes","johannes","male",1,"male",2
+"Tarvajärvi, Niilo Einar","einar","male",1,"male",2
+"Tiilikainen, Paavo Herman","herman","male",1,"male",2
+"Toivanen, Irma Hellin","irma","female",1,"female",1
+"Torikka, Jalmari",NA,NA,0,"male",0
+"Tuominen (e. Vire-Tuominen), Terttu Mirjam","mirjam","female",1,"female",2
+"Tuominen, Risto Juhani","risto","male",1,"male",2
+"Tupamäki, Olavi","olavi","male",1,"male",1
+"Turunen, Veikko Johannes (Veikko J.)","johannes","male",1,"male",2
+"Turunen, Väinö Johannes","johannes","male",1,"male",2
+"Työläjärvi (e. Salo, myöh. Humberg), Pirkko Annikki","pirkko","female",1,"female",3
+"Ursin, Martti Johannes","johannes","male",1,"male",2
+"Valtonen, Pirkko Mirjam","mirjam","female",1,"female",2
+"Vänskä, Mauri Heimo Kalervo","mauri","male",1,"male",1
+"Westerholm, Raino Olavi","olavi","male",1,"male",1
+"Westerlund, Seppo Assar Kustaa","seppo","male",1,"male",2
+"Wiio, Osmo Antero (Osmo A.)","antero","male",1,"male",2
+"Aalto, Anna-Kaarina","anna","female",1,"female",2
+"Bogdanoff (e. Lehtinen), Ulla Kaarina","ulla","female",1,"female",3
+"Friberg, Ralf Hjalmar Mikael","mikael","male",1,"male",4
+"Aas, Pertti Aslak","pertti","male",1,"male",3
+"Aaltio, Sampsa Eino Urmas","urmas","male",1,"male",3
+"Alppi, Ulla-Leena","ulla","female",1,"female",2
+"Antila, Pentti Malakias","pentti","male",1,"male",1
+"Eenilä, Paula Taina Tellervo","paula","female",1,"female",2
+"Grönholm, Eino Olavi","olavi","male",1,"male",2
+"Helminen, Olli Lauri Tapani","lauri","female",0,"male",3
+"Hemmi, Kerttu Maria","maria","female",1,"female",2
+"Hirvelä López (e. Hirvelä), Inger Emilia","emilia","female",1,"female",3
+"Hollming, Kirsti Marjatta","kirsti","female",1,"female",2
+"Huotari, Keijo Kalevi","keijo","male",1,"male",2
+"Häkämies, Erkki Pekka","pekka","male",1,"male",2
+"Härkönen, Esko Olavi","esko","male",1,"male",2
+"Isomursu, Antti Arvo","antti","male",1,"male",2
+"Jaatinen, Matti Risto Väinö","matti","male",1,"male",3
+"Jartti, Heikki Valentin","valentin","male",1,"male",2
+"Jokinen, Aila Irmeli","aila","female",1,"female",2
+"Jokiniemi, Toivo Matias Gottfrid","matias","male",1,"male",2
+"Joutsenlahti, Taito Anssi Ilmari","anssi","male",1,"male",2
+"Järvenpää, Matti Heimo","matti","male",1,"male",1
+"Kaipainen, Osmo Ensio","osmo","male",1,"male",1
+"Karjalainen (e. Hahl, v:sta 1935 Hatva), Aino Karoliina","karoliina","female",1,"female",2
+"Kivistö, Kalevi Johannes","johannes","male",1,"male",2
+"Koivisto, Tellervo Maria","maria","female",1,"female",1
+"Korpinen, Rauno Ensio","rauno","male",1,"male",1
+"Koskenniemi, Niilo Topias","niilo","male",1,"male",1
+"Koskinen, Aarne Johannes","johannes","male",1,"male",2
+"Kuusio, Matti","matti","male",1,"male",1
+"Laine, Eero Sakari","laine","female",0,"male",3
+"Laine, Jermu Tapani","laine","female",0,"male",2
+"Lattula, Eero Antero","eero","male",1,"male",2
+"Lepistö, Eeli Aleksanteri","aleksanteri","male",1,"male",2
+"Wallin, Stefan","stefan","male",1,"male",1
+"Löyttyniemi, Pekka Johannes","johannes","male",1,"male",2
+"Majlander, Olavi Enok","olavi","male",1,"male",1
+"Merisaari, Arto Allan","allan","male",1,"male",2
+"Mikkola, Saara Sinikka","saara","female",1,"female",2
+"Muroma, Impi Karoliina","karoliina","female",1,"female",1
+"Muurman, Peter Erik Alexander","peter","male",1,"male",3
+"Myyryläinen, Salme Kyllikki","salme","female",1,"female",1
+"Pekkala, Ahti Antti Johannes","johannes","male",1,"male",3
+"Penttinen, Aarne","aarne","male",1,"male",1
+"Petäjäniemi, Leena Tuulikki","leena","female",1,"female",2
+"Pihlajamäki, Veikko Jaakko Uolevi","jaakko","male",1,"male",3
+"Kautto, Kari Matti","kari","female",0,"male",2
+"Pohjonen, Antti Oskari","antti","male",1,"male",2
+"Pohto, Urho Iisakki",NA,NA,0,"male",0
+"Poutanen, Pentti","pentti","male",1,"male",1
+"Poutiainen, Eino","eino","female",0,"male",1
+"Pukkio, Eva-Maija Irene (Eva)","irene","female",1,"female",3
+"Pursiainen, Terho Martti","martti","male",1,"male",1
+"Raatikainen, Kaisa","kaisa","female",1,"female",1
+"Rajala, Pentti Heribert","pentti","male",1,"male",1
+"Rajantie, Maija Ilta Mielikki","maija","female",1,"female",1
+"Remes, Lauri Kalevi","lauri","female",0,"male",2
+"Rihtniemi-Koski (e. Rihtniemi, v:een 1978 Koski), Irma","irma","female",1,"female",1
+"Ronkainen, Olavi Johannes","johannes","male",1,"male",2
+"Ruokola, Matti Johannes","johannes","male",1,"male",2
+"Saarikoski, Helge Herman","herman","male",1,"male",2
+"Sainio, Arvo Robert","robert","male",1,"male",2
+"Salmenkivi, Otto Antero","otto","male",1,"male",2
+"Salmi, Kaarlo Veikko","salmi","male",1,"male",3
+"Impiö, Lauri Johannes","johannes","male",1,"male",2
+"Salonen, Markku Mikael","mikael","male",1,"male",2
+"Siikaniemi, Jouko Juhani","juhani","male",1,"male",2
+"Silander, Matti Viktor","viktor","male",1,"male",2
+"Starast, Vesa Veli-Pekka (Pekka)","veli","male",1,"male",3
+"Stenbäck, Pär Olav Mikael","mikael","male",1,"male",3
+"Suksi, Keijo Aatos","keijo","male",1,"male",1
+"Suominen, Heikki Samuli (Sami)","sami","male",1,"male",3
+"Sutinen, Lea","lea","female",1,"female",1
+"Särkkä (e. Tiitinen), Eeva Tellervo","eeva","female",1,"female",1
+"Söderström, Sten Håkansson","sten","male",1,"male",1
+"Tikka, Seppo Ensio","seppo","male",1,"male",2
+"Toiviainen, Seppo Esko Tapani","esko","male",1,"male",3
+"Tuomaala, Ilpo Kari Juhani","kari","female",1,"female",3
+"Tuovinen, Jouko Armas Antero","antero","male",1,"male",2
+"Vainio, Mikko Ilmari","mikko","male",1,"male",2
+"Vepsäläinen, Osmo Vilho","vilho","male",1,"male",2
+"Vesterinen, Paavo Viktor (Vihtori)","viktor","male",1,"male",2
+"Vikatmaa, Juha Ville","ville","male",1,"male",2
+"Volotinen, Johannes (Hannes)","johannes","male",1,"male",2
+"Yläjärvi, Toivo Juhani","juhani","male",1,"male",2
+"Zilliacus, Jutta Armelle","armelle","female",1,"female",2
+"Äikäs, Lasse Taisto","lasse","male",1,"male",1
+"Arranz, Riitta-Liisa","liisa","female",1,"female",2
+"Eklund, Vieno Rauha",NA,NA,0,"female",0
+"Koivisto, Juho Matti","matti","male",1,"male",2
+"Lähdesmäki, Martti Johannes","johannes","male",1,"male",2
+"Moisander, Erkki Tarmo Olavi","erkki","male",1,"male",3
+"Komsi, Viljo (Ville) Lauri Johannes","johannes","male",1,"male",4
+"Kulhia, Aune-Liisa (Liisa)","liisa","female",1,"female",2
+"Myllyniemi, Pekka Juhani","pekka","male",1,"male",2
+"Ratu (e. Laaksonen), Martti Ilmari","ratu","female",0,"male",3
+"Turpeinen-Saari, Pirkko Marjatta","pirkko","female",1,"female",2
+"Enävaara, Reijo Aukusti","aukusti","male",1,"male",2
+"Koskinen, Helvi","helvi","female",1,"female",1
+"Alanko-Kahiluoto, Satu Outi Kristiina","satu","female",1,"female",3
+"Lipponen, Päivi Pauliina","pauliina","female",1,"female",2
+"Hakola, Juha Tapio","juha","male",1,"male",2
+"Arhinmäki, Paavo Erkki","erkki","male",1,"male",2
+"Karhuvaara, Arja Sisko Kaarina","arja","female",1,"female",3
+"Perkiö, Sanna Leena","sanna","female",1,"female",2
+"Ruohonen-Lerner, Pirkko Anneli","anneli","female",1,"female",2
+"Karimäki, Johanna Maria","maria","female",1,"female",2
+"Palm, Sari","sari","female",1,"female",2
+"Blomqvist, Thomas","thomas","male",1,"male",1
+"Larikka, Jari","jari","male",1,"male",1
+"Pakkanen, Markku","markku","male",1,"male",1
+"Guzenina, Maria","maria","female",1,"female",1
+"Kuusisto, Merja","merja","female",1,"female",1
+"Viitamies, Johanna Pauliina","johanna","female",1,"female",2
+"Tabermann, Tommy","tommy","male",1,"male",1
+"Järvinen, Heli Maria","maria","female",1,"female",2
+"Feldt-Ranta, Maarit","maarit","female",1,"female",1
+"Toivakka, Lenita Anneli","anneli","female",1,"female",2
+"Tallqvist, Tarja","tarja","female",1,"female",1
+"Lauslahti, Sanna","sanna","female",1,"female",1
+"Lehti, Eero","eero","male",1,"male",1
+"Oinonen, Pentti Juhani","pentti","male",1,"male",2
+"Mäkelä, Jukka","jukka","male",1,"male",1
+"Heikkinen, Hannakaisa",NA,NA,0,"female",0
+"Katainen, Elsi Kaarina","elsi","female",1,"female",2
+"Mäkelä, Outi","outi","female",1,"female",1
+"Henriksson, Anna-Maja Kristina","anna","female",1,"female",3
+"Uusipaavalniemi, Markku Juhani","markku","male",1,"male",2
+"Nylund, Mats Johan","johan","male",1,"male",2
+"Mieto, Juha Iisakki","juha","male",1,"male",1
+"Yrttiaho, Jyrki Valto","jyrki","male",1,"male",1
+"Puumala, Tuomo Matti Oskari","tuomo","male",1,"male",3
+"Orpo, Antti Petteri","antti","male",1,"male",2
+"Virolainen, Anne-Mari","anne","female",1,"female",2
+"Sihto, Paula Eeva Katariina","paula","female",1,"female",3
+"Kaunisto, Timo Reino Juhani","timo","male",1,"male",3
+"Pihlajaniemi, Petri Antero","petri","male",1,"male",2
+"Taimela, Katja Alli Maarit","katja","female",1,"female",3
+"Kalmari, Anne Inkeri","anne","female",1,"female",2
+"Kantola, Ilkka Tapani","ilkka","male",1,"male",2
+"Peltonen, Tuula Irmeli","tuula","female",1,"female",2
+"Niinistö, Ville Matti","ville","male",1,"male",2
+"Virkkunen, Henna Maria","maria","female",1,"female",2
+"Kataja, Sampsa Kalle Henrikki","kalle","male",1,"male",2
+"Korhonen, Timo Vesa (Timo V.)","timo","male",1,"male",2
+"Kiuru, Krista Katriina","krista","female",1,"female",2
+"Vuolanne, Antti Johannes","johannes","male",1,"male",2
+"Vehkaperä, Mirja Tellervo","mirja","female",1,"female",1
+"Kyllönen, Merja Sinikka","merja","female",1,"female",2
+"Kaltiokumpu, Oiva Johannes","johannes","male",1,"male",1
+"Seurujärvi, Janne Antero","janne","female",0,"male",2
+"Autio, Risto Juhani","risto","male",1,"male",2
+"Heinonen, Timo Pasi Petteri","timo","male",1,"male",3
+"Viljanen, Ilkka Antero","ilkka","male",1,"male",2
+"Karvo, Ulla Marita","marita","female",1,"female",2
+"Asell, Marko Tapio","marko","male",1,"male",2
+"Ojala-Niemelä, Johanna","johanna","female",1,"female",1
+"Jaskari, Harri Matti","matti","male",1,"male",2
+"Nauclér, Charlotte Elisabeth Helene","charlotte","female",1,"female",3
