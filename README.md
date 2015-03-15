@@ -14,6 +14,7 @@ Currently, the following API endpoints are wrapped by `finpar`:
 | Data                | API endpoint                       | Function                           |
 |---------------------|------------------------------------|------------------------------------|
 | Parliamentary terms | [http://dev.kansanmuisti.fi/api/v1/term](http://dev.kansanmuisti.fi/static/api_v1_doc/index.html#api-Term) | `term()` |
+| Memebers of the Parliament | [http://dev.kansanmuisti.fi/api/v1/member](http://dev.kansanmuisti.fi/static/api_v1_doc/index.html#api-Member) | `member()` |
 
 ## Quick start
 
