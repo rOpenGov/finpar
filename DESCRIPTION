@@ -10,7 +10,7 @@ Description: Fetch data on the members of the parliament, parties, committees,
     and other relevant information. Base on an unofficial API provided by
     Kansan Muisti, see the API at http://dev.kansanmuisti.fi/api/v1/ . The whole
     API will not be covered initially.
-License: file LICENSE
+License: MIT + file LICENSE
 Depends:
     R (>= 3.1.0),
     httr
@@ -19,6 +19,7 @@ Imports:
     R.cache
 Suggests:
     testthat,
-    knitr,
+    rmarkdown,
+    knitr
 BugReports: https://github.com/rOpenGov/finpar/issues
 VignetteBuilder: knitr
