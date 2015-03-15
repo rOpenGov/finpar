@@ -1,0 +1,18 @@
+citHeader("Kindly cite the finpar R package as follows:")
+
+citEntry(entry="misc",
+         title = "finpar: R tools for Finnish Parliament Data from the unofficial Kansan Muisti API",
+         author = personList(
+	   person(given ="Joona", family="Lehtomaki", email = "joona.lehtomaki@gmail.com")
+         ),
+	 # doi = "10.5281/zenodo.10280",
+	 journal = "",
+	 year = "2014-2015",
+         textVersion =
+         paste("(C) Joona Lehtomaki 2014-2015). ",
+               "finpar: R tools for Finnish Parliament Data from the unofficial Kansan Muisti API",
+	       "URL: http://ropengov.github.com/finpar",
+               sep=" ")
+         )
+
+citFooter("\nMany thanks to http://kansanmuisti.fi !")
