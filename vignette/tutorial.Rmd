@@ -1,0 +1,69 @@
+---
+title: "finpar tutorial"
+author: rOpenGov
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    theme: flatly
+---
+<!--
+%\VignetteEngine{knitr::rmarkdown}
+%\VignetteIndexEntry{finpar Markdown Vignette}
+%\usepackage[utf8]{inputenc}
+-->
+
+
+Parliament of Finland: unofficial API client
+===========
+
+This R package provides tools to access Parliament of Finland data
+from the unofficial [Kansan Muisti](http://kansanmuisti.fi) API. 
+
+## Available data sources and tools
+
+[Installation](#installation) (Asennus)  
+
+
+
+## <a name="installation"></a>Installation
+
+Install the development version:
+
+```{r install2, eval=FALSE}
+library(devtools)
+install_github("ropengov/finpar")
+```
+
+Load the library:
+
+```{r test, message=FALSE, warning=FALSE, eval=TRUE}
+library(finpar)
+```
+
+Set UTF-8 encoding:
+
+```{r locale, eval=FALSE}
+Sys.setlocale(locale="UTF-8") 
+```
+
+
+## Licensing and Citations
+
+This work can be freely used, modified and distributed under the 
+[MIT license](http://en.wikipedia.org/wiki/MIT_License).
+
+```{r citation, message=FALSE, eval=TRUE}
+citation("finpar")
+```
+
+## Session info
+
+This vignette was created with
+
+```{r sessioninfo, message=FALSE, warning=FALSE}
+sessionInfo()
+```
+
+
+
+
