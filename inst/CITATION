@@ -9,9 +9,9 @@ citEntry(entry="misc",
 	 journal = "",
 	 year = "2014-2015",
          textVersion =
-         paste("(C) Joona Lehtomaki 2014-2015). ",
-               "finpar: R tools for Finnish Parliament Data from the unofficial Kansan Muisti API",
-	       "URL: http://ropengov.github.com/finpar",
+         paste("(C) Joona Lehtomaki 2014-2015.",
+               "finpar: R tools for Finnish Parliament Data from the unofficial Kansan Muisti API.",
+	       "URL: http://github.com/ropengov/finpar",
                sep=" ")
          )
 

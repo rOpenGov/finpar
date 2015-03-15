@@ -1,4 +1,6 @@
 [![Build Status](https://travis-ci.org/rOpenGov/finpar.svg?branch=master)](https://travis-ci.org/rOpenGov/finpar)
+[![Stories in Ready](https://badge.waffle.io/ropengov/finpar.png?label=Ready)](http://waffle.io/ropengov/finpar)
+
 
 finpar
 ======
