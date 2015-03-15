@@ -21,7 +21,8 @@ from the unofficial [Kansan Muisti](http://kansanmuisti.fi) API.
 
 ## Available data sources and tools
 
-[Installation](#installation) (Asennus)  
+[Installation](#installation) (Installation)
+[Usage](#usage) (Examples)  
 
 
 
@@ -46,6 +47,17 @@ Set UTF-8 encoding:
 Sys.setlocale(locale="UTF-8") 
 ```
 
+## <a name="usage"></a>Usage
+
+Get all the terms of the Finnish parliament in 1907-2011. 
+
+```{r finpar1}
+# Get all terms
+all_terms <- term()
+  
+# Get a specific term defined by ID
+term_2011 <- term(id=1)  
+```
 
 ## Licensing and Citations
 
