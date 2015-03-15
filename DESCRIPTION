@@ -1,14 +1,14 @@
 Package: finpar
 Type: Package
-Title: R client for the unofficial API of the Parliament of Finland
-Version: 0.0.2
-Date: 2015-02-04
+Title: Parliament of Finland Data Collection R Client
+Version: 0.0.3
+Date: 2015-03-18
 Encoding: UTF-8
-Author: Joona Lehtomäki
+Author: Joona Lehtomäki, Leo Lahti
 Maintainer: Joona Lehtomäki <joona.lehtomaki@gmail.com>
 Description: Fetch data on the members of the parliament, parties, committees,
-    and other relevant information. Base on an unofficial API provided by
-    Kansan Muisti, see the API at http://dev.kansanmuisti.fi/api/v1/ . The whole
+    and other relevant information. Based on the unofficial API provided by
+    Kansan Muisti, see http://dev.kansanmuisti.fi/api/v1/ . The whole
     API will not be covered initially.
 License: MIT + file LICENSE
 Depends:
