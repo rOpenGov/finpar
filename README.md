@@ -28,7 +28,7 @@ install_github("ropengov/finpar")
 
 ### Usage
 
-Check out examples in the package [vignette]
+Check out examples in the package [vignette](https://github.com/rOpenGov/finpar/blob/master/vignette/tutorial.md).
 
 ## Contributors
 
