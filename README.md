@@ -35,3 +35,5 @@ Check out examples in the package [vignette]
 ## Contributors
 
 + [Joona Lehtomäki](https://github.com/jlehtoma) <joona.lehtomaki@gmail.com>
++ [Leo Lahti](https://github.com/antagomir) 
+
