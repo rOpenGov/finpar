@@ -7,3 +7,14 @@
 
 # Misc
 *~
+
+# installation scripts
+inst/extras/.RData
+inst/extras/*.Rout
+inst/extras/*.Rcheck
+inst/extras/*.tar.gz
+
+
+
+
+

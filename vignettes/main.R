@@ -1,0 +1,5 @@
+library(knitr)
+knit("tutorial.Rmd")
+#knit2pdf("finpar.Rnw")
+#library(rmarkdown)
+#render("tutorial.Rmd", output_format = "pdf_document")
