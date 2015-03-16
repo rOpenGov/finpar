@@ -106,20 +106,13 @@ print(term_2011)
 
 ```r
 all_members <- member()
-```
-
-```
-## Error in eval(expr, envir, enclos): could not find function "member"
-```
-
-```r
 # Show the first ones in a table:
 library(knitr)
 kable(head(all_members))
 ```
 
 ```
-## Error in head(all_members): object 'all_members' not found
+## Error in data.frame(activity_days_included = 1426L, activity_score = NA, : arguments imply differing number of rows: 1, 0
 ```
 
 Get a specific member defined by ID  
@@ -127,20 +120,165 @@ Get a specific member defined by ID
 
 ```r
 jorn_donner <- member(id=30)  
-```
 
-```
-## Error in eval(expr, envir, enclos): could not find function "member"
-```
-
-```r
 print(jorn_donner)
 ```
 
 ```
-## Error in print(jorn_donner): object 'jorn_donner' not found
+## $activity_days_included
+## [1] 1426
+## 
+## $activity_score
+## [1] NA
+## 
+## $age
+## [1] 82
+## 
+## $all_posts
+## [1] NA
+## 
+## $birth_date
+## [1] "1933-02-05"
+## 
+## $birth_place
+## [1] "Helsinki"
+## 
+## $district_name
+## [1] "Helsingin"
+## 
+## $email
+## [1] "jorn.donner@eduskunta.fi"
+## 
+## $gender
+## [1] "m"
+## 
+## $given_names
+## [1] "Jörn Johan"
+## 
+## $homepage_link
+## [1] NA
+## 
+## $id
+## [1] 30
+## 
+## $info_link
+## [1] "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=109&kieli=su"
+## 
+## $last_checked_time
+## [1] NA
+## 
+## $last_modified_time
+## [1] "2015-03-16T04:27:23.592336"
+## 
+## $name
+## [1] "Donner Jörn"
+## 
+## $origin_id
+## [1] "109"
+## 
+## $party
+## [1] "/api/v1/party/r/"
+## 
+## $party_associations
+## $party_associations[[1]]
+## $party_associations[[1]]$begin
+## [1] "1987-03-21"
+## 
+## $party_associations[[1]]$end
+## [1] "1995-03-23"
+## 
+## $party_associations[[1]]$party
+## [1] "r"
+## 
+## 
+## $party_associations[[2]]
+## $party_associations[[2]]$begin
+## [1] "2007-01-05"
+## 
+## $party_associations[[2]]$end
+## [1] "2007-03-20"
+## 
+## $party_associations[[2]]$party
+## [1] "r"
+## 
+## 
+## $party_associations[[3]]
+## $party_associations[[3]]$begin
+## [1] "2013-09-05"
+## 
+## $party_associations[[3]]$end
+## NULL
+## 
+## $party_associations[[3]]$party
+## [1] "r"
+## 
+## 
+## 
+## $phone
+## [1] "(09) 432 3100"
+## 
+## $photo
+## [1] "/media/images/members/donner-jorn.jpg"
+## 
+## $posts
+## $posts$committee
+## $posts$committee[[1]]
+## $posts$committee[[1]]$begin
+## [1] "2013-11-07"
+## 
+## $posts$committee[[1]]$committee
+## [1] "Ulkoasiainvaliokunta"
+## 
+## $posts$committee[[1]]$end
+## NULL
+## 
+## $posts$committee[[1]]$role
+## [1] "member"
+## 
+## 
+## 
+## $posts$ministry
+## list()
+## 
+## $posts$speaker
+## list()
+## 
+## 
+## $print_name
+## [1] "Jörn Donner"
+## 
+## $resource_uri
+## [1] "/api/v1/member/30/"
+## 
+## $stats
+## [1] NA
+## 
+## $summary
+## [1] ""
+## 
+## $surname
+## [1] "Donner"
+## 
+## $terms
+## $terms[[1]]
+## [1] "1987"
+## 
+## $terms[[2]]
+## [1] "1991"
+## 
+## $terms[[3]]
+## [1] "2003"
+## 
+## $terms[[4]]
+## [1] "2011"
+## 
+## 
+## $url_name
+## [1] "donner-jorn"
+## 
+## $wikipedia_link
+## [1] NA
 ```
-
 
 ## <a name="gender"></a>Genders
 
@@ -252,7 +390,7 @@ sessionInfo()
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## other attached packages:
-## [1] genderizeR_1.0.0.1 finpar_0.1.1       httr_0.6.1        
+## [1] genderizeR_1.0.0.1 finpar_0.1.2       httr_0.6.1        
 ## [4] knitr_1.9         
 ## 
 ## loaded via a namespace (and not attached):

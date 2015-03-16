@@ -25,8 +25,8 @@ Returns all members of the Finnish parliament (MP).
 # Get all terms
 all_members <- member()
 
-# Get a specific MP defined by ID (Jörn Donner)
-jörn_donner <- member(id=30)
+# Get a specific MP defined by ID (Jorn Donner)
+jorn_donner <- member(id=30)
 }
 }
 \author{
