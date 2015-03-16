@@ -19,7 +19,8 @@
 #' @importFrom httr GET
 #' @importFrom R.cache loadCache
 #' @importFrom R.cache saveCache
-#' 
+#' @importFrom httr status_code
+#' @importFrom httr content
 #' @keywords internal
 #' 
 #' @author Joona Lehtomaki <joona.lehtomaki@@gmail.com>

@@ -51,9 +51,10 @@ Sys.setlocale(locale="UTF-8")
 
 All terms of the Finnish parliament in 1907-2011
 
-```{r finpar1, results='asis'}
+```{r finpar1, results='asis', message=FALSE}
 all_terms <- term()
 # Show the first ones in a table:
+library(knitr)
 kable(head(all_terms))
 ```
 
