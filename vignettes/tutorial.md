@@ -17,13 +17,26 @@ Parliament of Finland: unofficial API client
 ===========
 
 This R package provides tools to access Parliament of Finland data
-from the unofficial [Kansan Muisti](http://kansanmuisti.fi) API. 
+from the unofficial [Kansan Muisti](http://kansanmuisti.fi)
+API. Kansan Muisti website 2.0 is currently under development and
+`finpar` uses an API based on this development version (API version
+1.0.0). API based on the development site can be found at
+http://dev.kansanmuisti.fi/api/v1/, documentation
+http://dev.kansanmuisti.fi/static/api_v1_doc/index.html.
 
-## Available data sources and tools
+## Installation and usage
 
-[Installation](#installation) (Installation)  
-[Parliament terms](#terms) (Terms)  
-[Person gender](#genders) (Genders)  
+[Installing the package](#installation) (Installation)  
+[Gender analysis](#genders) (Genders)  
+
+### Available data sources and tools
+
+The following API endpoints are currently wrapped by `finpar`:
+
+| Data                | API endpoint                       | Function                           |
+|---------------------|------------------------------------|------------------------------------|
+| Parliamentary terms | [http://dev.kansanmuisti.fi/api/v1/term](http://dev.kansanmuisti.fi/static/api_v1_doc/index.html#api-Term) | `term()` |
+| Members of the Parliament | [http://dev.kansanmuisti.fi/api/v1/member](http://dev.kansanmuisti.fi/static/api_v1_doc/index.html#api-Member) | `member()` |
 
 
 ## <a name="installation"></a>Installation
@@ -84,6 +97,48 @@ print(term_2011)
 ```
 ##        begin end name id
 ## 1 2011-04-20  NA 2011  1
+```
+
+
+
+## <a name="members"></a>Parliament members
+
+
+```r
+all_members <- member()
+```
+
+```
+## Error in eval(expr, envir, enclos): could not find function "member"
+```
+
+```r
+# Show the first ones in a table:
+library(knitr)
+kable(head(all_members))
+```
+
+```
+## Error in head(all_members): object 'all_members' not found
+```
+
+Get a specific member defined by ID  
+
+
+```r
+jorn_donner <- member(id=30)  
+```
+
+```
+## Error in eval(expr, envir, enclos): could not find function "member"
+```
+
+```r
+print(jorn_donner)
+```
+
+```
+## Error in print(jorn_donner): object 'jorn_donner' not found
 ```
 
 
