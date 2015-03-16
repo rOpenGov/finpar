@@ -97,7 +97,6 @@ jorn_donner <- member(id=30)
 print(jorn_donner)
 ```
 
-
 ## <a name="gender"></a>Genders
 
 Use genderizeR package to estimate gender for first names (note that there might be [some inaccuracies in gender estimation for Finnish names](https://github.com/rOpenGov/finpar/issues/2))
