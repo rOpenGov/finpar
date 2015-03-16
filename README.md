@@ -1,40 +1,29 @@
-[![Build Status](https://travis-ci.org/rOpenGov/finpar.svg?branch=master)](https://travis-ci.org/rOpenGov/finpar)
-[![Stories in Ready](https://badge.waffle.io/ropengov/finpar.png?label=Ready)](http://waffle.io/ropengov/finpar)
-
-
 finpar
 ======
 
+[![Build Status](https://travis-ci.org/rOpenGov/finpar.svg?branch=master)](https://travis-ci.org/rOpenGov/finpar)
+[![Stories in Ready](https://badge.waffle.io/ropengov/finpar.png?label=Ready)](http://waffle.io/ropengov/finpar)
+
 R client for the unofficial API of [Parliament of Finland](http://web.eduskunta.fi/Resource.phx/parliament/index.htx) provided by NGO [Kansan Muisti](http://www.kansanmuisti.fi/about/background/). Parliament of Finland does not provide an official API, but Kansan Muisti does provide a RESTful API to a database mostly compiled by scraping data from parliament's web page. 
 
-### Kansan Muisti API
+For installation and usage, check the [tutorial page](https://github.com/rOpenGov/finpar/blob/master/vignettes/tutorial.md).  
 
-Kansan Muisti website version 2.0 is currently under heavy development and `finpar` uses an API based on this development version (API version 1.0.0). API based on the development site can be found at http://dev.kansanmuisti.fi/api/v1/, documentation http://dev.kansanmuisti.fi/static/api_v1_doc/index.html.
+You are welcome to:
+  
+  * [submit suggestions and bug-reports](https://github.com/louhos/sorvi/issues)
+  * [send a pull request](https://github.com/louhos/sorvi/)
+  * email list: louhos@googlegroups.com (Finland)
+  * [Discussion forum](https://groups.google.com/forum/?hl=fi#!forum/ropengov-forum)
+  * join IRC at !louhos@IRCnet (Finland) and ropengov@Freenode (international)
+  * follow us in social media [Finland](http://louhos.github.io/contact.html); [International](http://ropengov.github.io/contribute/)
 
-Currently, the following API endpoints are wrapped by `finpar`:
-
-| Data                | API endpoint                       | Function                           |
-|---------------------|------------------------------------|------------------------------------|
-| Parliamentary terms | [http://dev.kansanmuisti.fi/api/v1/term](http://dev.kansanmuisti.fi/static/api_v1_doc/index.html#api-Term) | `term()` |
-| Memebers of the Parliament | [http://dev.kansanmuisti.fi/api/v1/member](http://dev.kansanmuisti.fi/static/api_v1_doc/index.html#api-Member) | `member()` |
-
-## Quick start
-
-### Installation
-
-Install `finpar` from GitHub using `devtools`.
-
-```r
-install.packages(devtools)
-install_github("ropengov/finpar")
-```
-
-### Usage
-
-Check out examples in the package [vignette](https://github.com/rOpenGov/finpar/blob/master/vignette/tutorial.md).
 
 ## Contributors
 
 + [Joona Lehtomäki](https://github.com/jlehtoma) <joona.lehtomaki@gmail.com>
 + [Leo Lahti](https://github.com/antagomir) 
+
+Part of [rOpenGov](http://ropengov.github.io/).
+
+
 
