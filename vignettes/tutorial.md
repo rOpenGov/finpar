@@ -1,7 +1,7 @@
 ---
 title: "finpar tutorial"
 author: rOpenGov
-date: "2015-03-15"
+date: "2015-03-16"
 output:
   html_document:
     theme: flatly
@@ -21,9 +21,9 @@ from the unofficial [Kansan Muisti](http://kansanmuisti.fi) API.
 
 ## Available data sources and tools
 
-[Installation](#installation) (Installation)
-[Usage](#usage) (Examples)  
-
+[Installation](#installation) (Installation)  
+[Parliament terms](#terms) (Terms)  
+[Person gender](#genders) (Genders)  
 
 
 ## <a name="installation"></a>Installation
@@ -50,18 +50,98 @@ Set UTF-8 encoding:
 Sys.setlocale(locale="UTF-8") 
 ```
 
-## <a name="usage"></a>Usage
+## <a name="terms"></a>Parliament terms
 
-Get all the terms of the Finnish parliament in 1907-2011. 
+All terms of the Finnish parliament in 1907-2011
 
 
 ```r
-# Get all terms
 all_terms <- term()
-  
-# Get a specific term defined by ID
-term_2011 <- term(id=1)  
+# Show the first ones in a table:
+library(knitr)
+kable(head(all_terms))
 ```
+
+
+
+|begin      |end        |name | id|
+|:----------|:----------|:----|--:|
+|2011-04-20 |NA         |2011 |  1|
+|2007-03-21 |2011-04-19 |2007 |  2|
+|2003-03-19 |2007-03-20 |2003 |  3|
+|1999-03-24 |2003-03-18 |1999 |  4|
+|1995-03-24 |1999-03-23 |1995 | 36|
+|1991-03-22 |1995-03-23 |1991 | 35|
+
+Get a specific term defined by ID  
+
+
+```r
+term_2011 <- term(id=1)  
+print(term_2011)
+```
+
+```
+##        begin end name id
+## 1 2011-04-20  NA 2011  1
+```
+
+
+## <a name="gender"></a>Genders
+
+Use genderizeR package to estimate gender for first names (note that there might be [some inaccuracies in gender estimation for Finnish names](https://github.com/rOpenGov/finpar/issues/2))
+
+
+```r
+# devtools::install_github("kalimu/genderizeR")
+library(genderizeR)
+```
+
+```
+## Welcome to genderizeR package version: 1.0.0.1
+## 
+## Changelog: news(package = 'genderizeR')
+## Help & Contact: help(genderizeR)
+## 
+## If you find this package useful cite it please. Thank you! 
+## See: citation('genderizeR')
+## 
+## To suppress this message use:
+## suppressPackageStartupMessages(library(genderizeR))
+```
+
+```r
+x <- c("Sauli", "Tarja", "Mauno")
+givenNames <- findGivenNames(x, progress = FALSE)
+```
+
+
+
+```r
+g <- genderize(x, genderDB=givenNames, blacklist=NULL, progress = FALSE)
+```
+
+```r
+kable(g)
+```
+
+
+
+|text  |givenName |gender | genderIndicators|
+|:-----|:---------|:------|----------------:|
+|Sauli |sauli     |male   |                1|
+|Tarja |tarja     |female |                1|
+|Mauno |mauno     |male   |                1|
+
+## Related 
+
+ * R code to calculate [co-sponsorship networks from bills (and motions) passed in the Finnish Parliament](https://github.com/briatte/eduskunta/)
+
+
+## Acknowledgements
+
+R client for the unofficial API of [Parliament of Finland](http://web.eduskunta.fi/Resource.phx/parliament/index.htx) provided by NGO [Kansan Muisti](http://www.kansanmuisti.fi/about/background/). Parliament of Finland does not provide an official API, but Kansan Muisti does provide a RESTful API to a database mostly compiled by scraping data from parliament's web page. Great work !
+
 
 ## Licensing and Citations
 
@@ -77,9 +157,9 @@ citation("finpar")
 ## 
 ## Kindly cite the finpar R package as follows:
 ## 
-##   (C) Joona Lehtomaki 2014-2015).  finpar: R tools for Finnish
-##   Parliament Data from the unofficial Kansan Muisti API URL:
-##   http://ropengov.github.com/finpar
+##   (C) Joona Lehtomaki 2014-2015. finpar: R tools for Finnish
+##   Parliament Data from the unofficial Kansan Muisti API. URL:
+##   http://github.com/ropengov/finpar
 ## 
 ## A BibTeX entry for LaTeX users is
 ## 
@@ -117,15 +197,19 @@ sessionInfo()
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## other attached packages:
-## [1] finpar_0.0.2 httr_0.6.1   knitr_1.9   
+## [1] genderizeR_1.0.0.1 finpar_0.1.1       httr_0.6.1        
+## [4] knitr_1.9         
 ## 
 ## loaded via a namespace (and not attached):
-##  [1] assertthat_0.1    bitops_1.0-6      DBI_0.3.1        
-##  [4] dplyr_0.4.1       evaluate_0.5.5    formatR_1.0      
-##  [7] jsonlite_0.9.14   lazyeval_0.1.10   magrittr_1.5     
-## [10] parallel_3.1.2    R.cache_0.10.0    Rcpp_0.11.5      
-## [13] RCurl_1.95-4.5    R.methodsS3_1.7.0 R.oo_1.19.0      
-## [16] R.utils_2.0.0     stringr_0.6.2     tools_3.1.2
+##  [1] assertthat_0.1    bitops_1.0-6      chron_2.3-45     
+##  [4] data.table_1.9.4  DBI_0.3.1         dplyr_0.4.1      
+##  [7] evaluate_0.5.5    formatR_1.0       jsonlite_0.9.14  
+## [10] lazyeval_0.1.10   magrittr_1.5      NLP_0.1-6        
+## [13] parallel_3.1.2    plyr_1.8.1        R.cache_0.10.0   
+## [16] Rcpp_0.11.5       RCurl_1.95-4.5    reshape2_1.4.1   
+## [19] R.methodsS3_1.7.0 R.oo_1.19.0       R.utils_2.0.0    
+## [22] slam_0.1-32       stringr_0.6.2     tm_0.6           
+## [25] tools_3.1.2
 ```
 
 
