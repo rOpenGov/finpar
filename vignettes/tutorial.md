@@ -26,8 +26,8 @@ http://dev.kansanmuisti.fi/static/api_v1_doc/index.html.
 
 ## Installation and usage
 
-[Installing the package](#installation) (Installation)  
-[Gender analysis](#genders) (Genders)  
+[Installing the package](#installation) (Installing the package)  
+[Gender analysis](#genders) (Estimating genders)  
 
 ### Available data sources and tools
 
@@ -103,181 +103,52 @@ print(term_2011)
 
 ## <a name="members"></a>Parliament members
 
+Get all parliament members and plot their age distribution
+
 
 ```r
 all_members <- member()
-# Show the first ones in a table:
-library(knitr)
-kable(head(all_members))
+ages <- sapply(all_members, function (x) {x$age})
+hist(ages, col = "gray", xlab = "Age", main = "Age distribution of parliament members", las = 2)
 ```
 
-```
-## Error in data.frame(activity_days_included = 1426L, activity_score = NA, : arguments imply differing number of rows: 1, 0
-```
+![plot of chunk finparmember](figure/finparmember-1.png) 
 
-Get a specific member defined by ID  
+Get a specific member defined by ID:
 
 
 ```r
 jorn_donner <- member(id=30)  
 
-print(jorn_donner)
+# List available variables
+print(names(jorn_donner))
 ```
 
 ```
-## $activity_days_included
-## [1] 1426
-## 
-## $activity_score
-## [1] NA
-## 
-## $age
+##  [1] "activity_days_included" "activity_score"        
+##  [3] "age"                    "all_posts"             
+##  [5] "birth_date"             "birth_place"           
+##  [7] "district_name"          "email"                 
+##  [9] "gender"                 "given_names"           
+## [11] "homepage_link"          "id"                    
+## [13] "info_link"              "last_checked_time"     
+## [15] "last_modified_time"     "name"                  
+## [17] "origin_id"              "party"                 
+## [19] "party_associations"     "phone"                 
+## [21] "photo"                  "posts"                 
+## [23] "print_name"             "resource_uri"          
+## [25] "stats"                  "summary"               
+## [27] "surname"                "terms"                 
+## [29] "url_name"               "wikipedia_link"
+```
+
+```r
+# Check age
+jorn_donner$age
+```
+
+```
 ## [1] 82
-## 
-## $all_posts
-## [1] NA
-## 
-## $birth_date
-## [1] "1933-02-05"
-## 
-## $birth_place
-## [1] "Helsinki"
-## 
-## $district_name
-## [1] "Helsingin"
-## 
-## $email
-## [1] "jorn.donner@eduskunta.fi"
-## 
-## $gender
-## [1] "m"
-## 
-## $given_names
-## [1] "Jörn Johan"
-## 
-## $homepage_link
-## [1] NA
-## 
-## $id
-## [1] 30
-## 
-## $info_link
-## [1] "http://www.eduskunta.fi/triphome/bin/hex5000.sh?hnro=109&kieli=su"
-## 
-## $last_checked_time
-## [1] NA
-## 
-## $last_modified_time
-## [1] "2015-03-16T04:27:23.592336"
-## 
-## $name
-## [1] "Donner Jörn"
-## 
-## $origin_id
-## [1] "109"
-## 
-## $party
-## [1] "/api/v1/party/r/"
-## 
-## $party_associations
-## $party_associations[[1]]
-## $party_associations[[1]]$begin
-## [1] "1987-03-21"
-## 
-## $party_associations[[1]]$end
-## [1] "1995-03-23"
-## 
-## $party_associations[[1]]$party
-## [1] "r"
-## 
-## 
-## $party_associations[[2]]
-## $party_associations[[2]]$begin
-## [1] "2007-01-05"
-## 
-## $party_associations[[2]]$end
-## [1] "2007-03-20"
-## 
-## $party_associations[[2]]$party
-## [1] "r"
-## 
-## 
-## $party_associations[[3]]
-## $party_associations[[3]]$begin
-## [1] "2013-09-05"
-## 
-## $party_associations[[3]]$end
-## NULL
-## 
-## $party_associations[[3]]$party
-## [1] "r"
-## 
-## 
-## 
-## $phone
-## [1] "(09) 432 3100"
-## 
-## $photo
-## [1] "/media/images/members/donner-jorn.jpg"
-## 
-## $posts
-## $posts$committee
-## $posts$committee[[1]]
-## $posts$committee[[1]]$begin
-## [1] "2013-11-07"
-## 
-## $posts$committee[[1]]$committee
-## [1] "Ulkoasiainvaliokunta"
-## 
-## $posts$committee[[1]]$end
-## NULL
-## 
-## $posts$committee[[1]]$role
-## [1] "member"
-## 
-## 
-## 
-## $posts$ministry
-## list()
-## 
-## $posts$speaker
-## list()
-## 
-## 
-## $print_name
-## [1] "Jörn Donner"
-## 
-## $resource_uri
-## [1] "/api/v1/member/30/"
-## 
-## $stats
-## [1] NA
-## 
-## $summary
-## [1] ""
-## 
-## $surname
-## [1] "Donner"
-## 
-## $terms
-## $terms[[1]]
-## [1] "1987"
-## 
-## $terms[[2]]
-## [1] "1991"
-## 
-## $terms[[3]]
-## [1] "2003"
-## 
-## $terms[[4]]
-## [1] "2011"
-## 
-## 
-## $url_name
-## [1] "donner-jorn"
-## 
-## $wikipedia_link
-## [1] NA
 ```
 
 ## <a name="gender"></a>Genders
@@ -390,8 +261,8 @@ sessionInfo()
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## other attached packages:
-## [1] genderizeR_1.0.0.1 finpar_0.1.2       httr_0.6.1        
-## [4] knitr_1.9         
+## [1] genderizeR_1.0.0.1 knitr_1.9          finpar_0.1.2      
+## [4] httr_0.6.1        
 ## 
 ## loaded via a namespace (and not attached):
 ##  [1] assertthat_0.1    bitops_1.0-6      chron_2.3-45     

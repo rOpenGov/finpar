@@ -26,8 +26,8 @@ http://dev.kansanmuisti.fi/static/api_v1_doc/index.html.
 
 ## Installation and usage
 
-[Installing the package](#installation) (Installation)  
-[Gender analysis](#genders) (Genders)  
+[Installing the package](#installation) (Installing the package)  
+[Gender analysis](#genders) (Estimating genders)  
 
 ### Available data sources and tools
 
@@ -82,19 +82,24 @@ print(term_2011)
 
 ## <a name="members"></a>Parliament members
 
+Get all parliament members and plot their age distribution
+
 ```{r finparmember, results='asis', message=FALSE}
 all_members <- member()
-# Show the first ones in a table:
-library(knitr)
-kable(head(all_members))
+ages <- sapply(all_members, function (x) {x$age})
+hist(ages, col = "gray", xlab = "Age", main = "Age distribution of parliament members", las = 2)
 ```
 
-Get a specific member defined by ID  
+Get a specific member defined by ID:
 
 ```{r finparmember2}
 jorn_donner <- member(id=30)  
 
-print(jorn_donner)
+# List available variables
+print(names(jorn_donner))
+
+# Check age
+jorn_donner$age
 ```
 
 ## <a name="gender"></a>Genders
