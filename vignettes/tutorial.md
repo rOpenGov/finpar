@@ -197,12 +197,28 @@ kable(session)
 
 ## <a name="gender"></a>Genders
 
-Use genderizeR package to estimate gender for first names (note that there might be [some inaccuracies in gender estimation for Finnish names](https://github.com/rOpenGov/finpar/issues/2))
+Use [genderizeR](https://github.com/kalimu/genderizeR) to estimate gender for first names (note that there might be [some inaccuracies in gender estimation for Finnish names](https://github.com/rOpenGov/finpar/issues/2)):
 
 
 ```r
 # devtools::install_github("kalimu/genderizeR")
 library(genderizeR)
+```
+
+```
+## Welcome to genderizeR package version: 1.0.0.1
+## 
+## Changelog: news(package = 'genderizeR')
+## Help & Contact: help(genderizeR)
+## 
+## If you find this package useful cite it please. Thank you! 
+## See: citation('genderizeR')
+## 
+## To suppress this message use:
+## suppressPackageStartupMessages(library(genderizeR))
+```
+
+```r
 x <- c("Sauli", "Tarja", "Mauno")
 givenNames <- findGivenNames(x, progress = FALSE)
 ```
@@ -227,12 +243,12 @@ kable(g)
 
 ## Related 
 
- * R code to calculate [co-sponsorship networks from bills (and motions) passed in the Finnish Parliament](https://github.com/briatte/eduskunta/)
+R code to calculate [co-sponsorship networks from bills (and motions) passed in the Finnish Parliament](https://github.com/briatte/eduskunta/) by  François briatte
 
 
 ## Acknowledgements
 
-R client for the unofficial API of [Parliament of Finland](http://web.eduskunta.fi/Resource.phx/parliament/index.htx) provided by NGO [Kansan Muisti](http://www.kansanmuisti.fi/about/background/). Parliament of Finland does not provide an official API, but Kansan Muisti does provide a RESTful API to a database mostly compiled by scraping data from parliament's web page. Great work !
+R client for the unofficial API of [Parliament of Finland](http://web.eduskunta.fi/Resource.phx/parliament/index.htx) provided by NGO [Kansan Muisti](http://www.kansanmuisti.fi/about/background/). Parliament of Finland does not provide an official API, but Kansan Muisti does provide a [RESTful API](http://kansanmuisti.fi/api/v1/) to a database mostly compiled by scraping data from parliament's web page. Great work !
 
 
 ## Licensing and Citations
