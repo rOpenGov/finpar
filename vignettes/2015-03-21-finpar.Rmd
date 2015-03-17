@@ -1,0 +1,35 @@
+---
+title:  "Eduskuntadatan R-paketti tekeillä (KaMu 2.0)"
+date:   2100-06-01 20:00:00
+layout: news
+category : news
+tags : [news,R,ropengov,finpar,datavaalit]
+language: fi
+author: Joona Lehtomäki ja Leo Lahti
+comments: true
+---
+
+Eduskuntadata kattaa tietoja äänestyksistä, kansanedustajista, vaalirahoituksesta, puolueista ja vaalikausista koko Suomen itsenäisyyden ajalta. [Kansan Muisti ry.](http://kansanmuisti.fi/) (KaMu) on koonnut aiemmin hajallaan olleet aineistot avoimesti saataville [yhtenäisen rajapinnan](http://dev.kansanmuisti.fi/static/api_v1_doc/index.html) taakse. Sivustolla tietoihin voi tutustua selaimella, mutta eduskunta-aineisto tarjoaa myös muita mahdollisuuksia laskennalliseen analyysiin, yhdistettynä vaikkapa paikkatietoon tai sosioekonomisiin indikaattoreihin. 
+
+Tätä silmällä pitäen kehitimme rajapinnan luentaan R-paketin, jonka kehitysversio löytyy [GitHubista](https://github.com/rOpenGov/finpar), ja [tutoriaali](https://github.com/rOpenGov/finpar/blob/master/vignettes/tutorial.md) tarjoaa konkreettisia käyttöesimerkkejä. Tämä esimerkki lataa ja piirtää kansanedustajien ikäjakauman:
+
+```{r finparblog1, message=FALSE, warning=FALSE} 
+library(devtools)
+install_github("ropengov/finpar")
+library(finpar)
+all_members <- member()
+ages <- sapply(all_members, function (x) {x$age})
+hist(ages, col = "gray", xlab = "Age", 
+     main = "Age distribution of parliament members", las = 1)
+```
+
+
+Olemme nyt viimeistelemässä tätä ```finpar```-pakettia. Paketti muodostaa jo toimivan kokonaisuuden, mutta R-hakurutiinit pitää kirjoittaa vielä lopuille rajapinnan aineistoille. Toivotamme myös uudet R-koodarit tervetulleiksi [mukaan talkoisiin](https://github.com/rOpenGov/finpar)! Samalla paketti jatkaa suomalaisen avoimen datan R-ekosysteemin laajenemista. Olemme aiemmin toteuttaneet R-kirjastot mm. [Suomalaisille paikkatietoaineistoille](https://github.com/rOpenGov/gisfin), [pääkaupunkiseudun avoimelle datalle](https://github.com/rOpenGov/helsinki), [Tilastokeskuksen](https://github.com/rOpenGov/pxweb), [THL:n](https://github.com/rOpenGov/sotkanet) ja [Ilmatieteen laitoksen](https://github.com/rOpenGov/fmi) avoimille datoille.
+
+
+
+
+
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+<img alt="Creative Commons -käyttölupa" style="border-width:0"
+src="http://i.creativecommons.org/l/by/4.0/88x31.png" /> </a>
