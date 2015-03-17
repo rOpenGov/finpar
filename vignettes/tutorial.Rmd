@@ -18,11 +18,9 @@ Parliament of Finland: unofficial API client
 
 This R package provides tools to access Parliament of Finland data
 from the unofficial [Kansan Muisti](http://kansanmuisti.fi)
-API. Kansan Muisti website 2.0 is currently under development and
-`finpar` uses an API based on this development version (API version
-1.0.0). API based on the development site can be found at
-http://kansanmuisti.fi/api/v1/, documentation
-http://kansanmuisti.fi/static/api_v1_doc/index.html.
+2.0. [API](http://kansanmuisti.fi/api/v1/). For API documentation,
+check [here](http://kansanmuisti.fi/static/api_v1_doc/index.html).
+
 
 ## Installation and usage
 
@@ -102,8 +100,6 @@ print(names(jorn_donner))
 # Check age
 jorn_donner$age
 ```
-
-
 
 
 ## <a name="members"></a>Plenary sessions
