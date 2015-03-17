@@ -116,7 +116,7 @@ Get a specific plenary session defined by ID
 session <- plenary_session(id=30)  
 
 # List available variables
-print(kable(session))
+kable(session)
 ```
 
 

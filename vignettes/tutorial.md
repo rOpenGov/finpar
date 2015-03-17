@@ -167,33 +167,31 @@ Get a specific plenary session defined by ID
 session <- plenary_session(id=30)  
 
 # List available variables
-print(kable(session))
+kable(session)
 ```
 
-```
-## 
-## 
-## |id | field|element            |value                                                                |
-## |:--|-----:|:------------------|:--------------------------------------------------------------------|
-## |30 |     1|date               |2012-11-23                                                           |
-## |30 |     1|info_link          |http://www.eduskunta.fi/triphome/bin/akxptk.sh?{KEY}=PTK+116/2012+vp |
-## |30 |     1|last_checked_time  |2013-12-01T00:00:00                                                  |
-## |30 |     1|last_modified_time |NA                                                                   |
-## |30 |     1|name               |116/2012                                                             |
-## |30 |     1|origin_id          |116/2012                                                             |
-## |30 |     1|origin_version     |2.0                                                                  |
-## |30 |     1|plenary_votes      |/api/v1/plenary_vote/1244/                                           |
-## |30 |     2|plenary_votes      |/api/v1/plenary_vote/1245/                                           |
-## |30 |     3|plenary_votes      |/api/v1/plenary_vote/1246/                                           |
-## |30 |     4|plenary_votes      |/api/v1/plenary_vote/1247/                                           |
-## |30 |     5|plenary_votes      |/api/v1/plenary_vote/1248/                                           |
-## |30 |     6|plenary_votes      |/api/v1/plenary_vote/1249/                                           |
-## |30 |     7|plenary_votes      |/api/v1/plenary_vote/1250/                                           |
-## |30 |     8|plenary_votes      |/api/v1/plenary_vote/1251/                                           |
-## |30 |     9|plenary_votes      |/api/v1/plenary_vote/1252/                                           |
-## |30 |     1|resource_uri       |/api/v1/plenary_session/30/                                          |
-## |30 |     1|url_name           |116-2012                                                             |
-```
+
+
+|id | field|element            |value                                                                |
+|:--|-----:|:------------------|:--------------------------------------------------------------------|
+|30 |     1|date               |2012-11-23                                                           |
+|30 |     1|info_link          |http://www.eduskunta.fi/triphome/bin/akxptk.sh?{KEY}=PTK+116/2012+vp |
+|30 |     1|last_checked_time  |2013-12-01T00:00:00                                                  |
+|30 |     1|last_modified_time |NA                                                                   |
+|30 |     1|name               |116/2012                                                             |
+|30 |     1|origin_id          |116/2012                                                             |
+|30 |     1|origin_version     |2.0                                                                  |
+|30 |     1|plenary_votes      |/api/v1/plenary_vote/1244/                                           |
+|30 |     2|plenary_votes      |/api/v1/plenary_vote/1245/                                           |
+|30 |     3|plenary_votes      |/api/v1/plenary_vote/1246/                                           |
+|30 |     4|plenary_votes      |/api/v1/plenary_vote/1247/                                           |
+|30 |     5|plenary_votes      |/api/v1/plenary_vote/1248/                                           |
+|30 |     6|plenary_votes      |/api/v1/plenary_vote/1249/                                           |
+|30 |     7|plenary_votes      |/api/v1/plenary_vote/1250/                                           |
+|30 |     8|plenary_votes      |/api/v1/plenary_vote/1251/                                           |
+|30 |     9|plenary_votes      |/api/v1/plenary_vote/1252/                                           |
+|30 |     1|resource_uri       |/api/v1/plenary_session/30/                                          |
+|30 |     1|url_name           |116-2012                                                             |
 
 
 
