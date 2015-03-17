@@ -37,6 +37,7 @@ The following API endpoints are currently wrapped by `finpar`:
 |---------------------|------------------------------------|------------------------------------|
 | Parliamentary terms | [http://dev.kansanmuisti.fi/api/v1/term](http://dev.kansanmuisti.fi/static/api_v1_doc/index.html#api-Term) | `term()` |
 | Members of the Parliament | [http://dev.kansanmuisti.fi/api/v1/member](http://dev.kansanmuisti.fi/static/api_v1_doc/index.html#api-Member) | `member()` |
+| Plenary sessions | [http://dev.kansanmuisti.fi/api/v1/plenary_session](http://dev.kansanmuisti.fi/static/api_v1_doc/index.html#api-Plenary_Session) | `plenary_session()` |
 
 
 ## <a name="installation"></a>Installation
@@ -101,6 +102,28 @@ print(names(jorn_donner))
 # Check age
 jorn_donner$age
 ```
+
+
+
+
+## <a name="members"></a>Plenary sessions
+
+Get all plenary sessions 
+
+```{r plenarysession, results='asis', message=FALSE}
+all_plenary_sessions <- plenary_session()
+```
+  
+Get a specific plenary session defined by ID
+
+```{r plenarysession2}
+session <- plenary_session(id=30)  
+
+# List available variables
+print(session)
+```
+
+
 
 ## <a name="gender"></a>Genders
 

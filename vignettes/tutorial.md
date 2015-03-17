@@ -1,7 +1,7 @@
 ---
 title: "finpar tutorial"
 author: rOpenGov
-date: "2015-03-16"
+date: "2015-03-17"
 output:
   html_document:
     theme: flatly
@@ -37,6 +37,7 @@ The following API endpoints are currently wrapped by `finpar`:
 |---------------------|------------------------------------|------------------------------------|
 | Parliamentary terms | [http://dev.kansanmuisti.fi/api/v1/term](http://dev.kansanmuisti.fi/static/api_v1_doc/index.html#api-Term) | `term()` |
 | Members of the Parliament | [http://dev.kansanmuisti.fi/api/v1/member](http://dev.kansanmuisti.fi/static/api_v1_doc/index.html#api-Member) | `member()` |
+| Plenary sessions | [http://dev.kansanmuisti.fi/api/v1/plenary_session](http://dev.kansanmuisti.fi/static/api_v1_doc/index.html#api-Plenary_Session) | `plenary_session()` |
 
 
 ## <a name="installation"></a>Installation
@@ -151,6 +152,44 @@ jorn_donner$age
 ## [1] 82
 ```
 
+
+
+
+## <a name="members"></a>Plenary sessions
+
+Get all plenary sessions 
+
+
+```r
+all_plenary_sessions <- plenary_session()
+```
+
+```
+## Error in eval(expr, envir, enclos): could not find function "plenary_session"
+```
+  
+Get a specific plenary session defined by ID
+
+
+```r
+session <- plenary_session(id=30)  
+```
+
+```
+## Error in eval(expr, envir, enclos): could not find function "plenary_session"
+```
+
+```r
+# List available variables
+print(session)
+```
+
+```
+## Error in print(session): object 'session' not found
+```
+
+
+
 ## <a name="gender"></a>Genders
 
 Use genderizeR package to estimate gender for first names (note that there might be [some inaccuracies in gender estimation for Finnish names](https://github.com/rOpenGov/finpar/issues/2))
@@ -261,8 +300,8 @@ sessionInfo()
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## other attached packages:
-## [1] genderizeR_1.0.0.1 knitr_1.9          finpar_0.1.2      
-## [4] httr_0.6.1        
+## [1] genderizeR_1.0.0.1 finpar_0.1.2       httr_0.6.1        
+## [4] knitr_1.9         
 ## 
 ## loaded via a namespace (and not attached):
 ##  [1] assertthat_0.1    bitops_1.0-6      chron_2.3-45     
