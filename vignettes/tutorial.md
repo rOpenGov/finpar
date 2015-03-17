@@ -18,11 +18,9 @@ Parliament of Finland: unofficial API client
 
 This R package provides tools to access Parliament of Finland data
 from the unofficial [Kansan Muisti](http://kansanmuisti.fi)
-API. Kansan Muisti website 2.0 is currently under development and
-`finpar` uses an API based on this development version (API version
-1.0.0). API based on the development site can be found at
-http://dev.kansanmuisti.fi/api/v1/, documentation
-http://dev.kansanmuisti.fi/static/api_v1_doc/index.html.
+2.0. [API](http://kansanmuisti.fi/api/v1/). For API documentation,
+check [here](http://dev.kansanmuisti.fi/static/api_v1_doc/index.html).
+
 
 ## Installation and usage
 
@@ -35,9 +33,9 @@ The following API endpoints are currently wrapped by `finpar`:
 
 | Data                | API endpoint                       | Function                           |
 |---------------------|------------------------------------|------------------------------------|
-| Parliamentary terms | [http://dev.kansanmuisti.fi/api/v1/term](http://dev.kansanmuisti.fi/static/api_v1_doc/index.html#api-Term) | `term()` |
-| Members of the Parliament | [http://dev.kansanmuisti.fi/api/v1/member](http://dev.kansanmuisti.fi/static/api_v1_doc/index.html#api-Member) | `member()` |
-| Plenary sessions | [http://dev.kansanmuisti.fi/api/v1/plenary_session](http://dev.kansanmuisti.fi/static/api_v1_doc/index.html#api-Plenary_Session) | `plenary_session()` |
+| Parliamentary terms | [http://kansanmuisti.fi/api/v1/term](http://kansanmuisti.fi/static/api_v1_doc/index.html#api-Term) | `term()` |
+| Members of the Parliament | [http://kansanmuisti.fi/api/v1/member](http://kansanmuisti.fi/static/api_v1_doc/index.html#api-Member) | `member()` |
+| Plenary sessions | [http://kansanmuisti.fi/api/v1/plenary_session](http://kansanmuisti.fi/static/api_v1_doc/index.html#api-Plenary_Session) | `plenary_session()` |
 
 
 ## <a name="installation"></a>Installation
@@ -110,7 +108,7 @@ Get all parliament members and plot their age distribution
 ```r
 all_members <- member()
 ages <- sapply(all_members, function (x) {x$age})
-hist(ages, col = "gray", xlab = "Age", main = "Age distribution of parliament members", las = 2)
+hist(ages, col = "gray", xlab = "Age", main = "Age distribution of parliament members", las = 1)
 ```
 
 ![plot of chunk finparmember](figure/finparmember-1.png) 
@@ -153,8 +151,6 @@ jorn_donner$age
 ```
 
 
-
-
 ## <a name="members"></a>Plenary sessions
 
 Get all plenary sessions 
@@ -163,29 +159,40 @@ Get all plenary sessions
 ```r
 all_plenary_sessions <- plenary_session()
 ```
-
-```
-## Error in eval(expr, envir, enclos): could not find function "plenary_session"
-```
   
 Get a specific plenary session defined by ID
 
 
 ```r
 session <- plenary_session(id=30)  
-```
 
-```
-## Error in eval(expr, envir, enclos): could not find function "plenary_session"
-```
-
-```r
 # List available variables
 print(session)
 ```
 
 ```
-## Error in print(session): object 'session' not found
+## Source: local data frame [18 x 4]
+## 
+##    id field            element
+## 1  30     1               date
+## 2  30     1          info_link
+## 3  30     1  last_checked_time
+## 4  30     1 last_modified_time
+## 5  30     1               name
+## 6  30     1          origin_id
+## 7  30     1     origin_version
+## 8  30     1      plenary_votes
+## 9  30     2      plenary_votes
+## 10 30     3      plenary_votes
+## 11 30     4      plenary_votes
+## 12 30     5      plenary_votes
+## 13 30     6      plenary_votes
+## 14 30     7      plenary_votes
+## 15 30     8      plenary_votes
+## 16 30     9      plenary_votes
+## 17 30     1       resource_uri
+## 18 30     1           url_name
+## Variables not shown: value (chr)
 ```
 
 
@@ -300,8 +307,8 @@ sessionInfo()
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## other attached packages:
-## [1] genderizeR_1.0.0.1 finpar_0.1.2       httr_0.6.1        
-## [4] knitr_1.9         
+## [1] genderizeR_1.0.0.1 finpar_0.1.2       reshape2_1.4.1    
+## [4] httr_0.6.1         knitr_1.9         
 ## 
 ## loaded via a namespace (and not attached):
 ##  [1] assertthat_0.1    bitops_1.0-6      chron_2.3-45     
@@ -309,10 +316,9 @@ sessionInfo()
 ##  [7] evaluate_0.5.5    formatR_1.0       jsonlite_0.9.14  
 ## [10] lazyeval_0.1.10   magrittr_1.5      NLP_0.1-6        
 ## [13] parallel_3.1.2    plyr_1.8.1        R.cache_0.10.0   
-## [16] Rcpp_0.11.5       RCurl_1.95-4.5    reshape2_1.4.1   
-## [19] R.methodsS3_1.7.0 R.oo_1.19.0       R.utils_2.0.0    
-## [22] slam_0.1-32       stringr_0.6.2     tm_0.6           
-## [25] tools_3.1.2
+## [16] Rcpp_0.11.5       RCurl_1.95-4.5    R.methodsS3_1.7.0
+## [19] R.oo_1.19.0       R.utils_2.0.0     slam_0.1-32      
+## [22] stringr_0.6.2     tm_0.6            tools_3.1.2
 ```
 
 

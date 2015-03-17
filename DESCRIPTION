@@ -13,7 +13,8 @@ Description: Fetch data on the members of the parliament, parties, committees,
 License: MIT + file LICENSE
 Depends:
     R (>= 3.1.0),
-    httr
+    httr,
+    reshape2
 Imports:
     dplyr,
     R.cache
