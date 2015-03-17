@@ -7,7 +7,13 @@
 #' @param ... additional arguments passed on to \code{query_kamu_api}, most
 #' notably \code{cache} if needed.
 #' 
-#' @return list of MPs
+#' @return Plenary session data in long data.frame format with the following fields: 
+#'   \itemize{
+#'     \item{id}{Plenary session id}
+#'     \item{field}{Data field name}
+#'     \item{element}{Counter for elements in the given data field. Certain fields contain a list of values. This is used to distinguish between multiple list elements.}
+#'     \item{value}{Data field value}
+#'   }
 #' 
 #' @importFrom reshape2 melt
 #' @importFrom dplyr rbind_all

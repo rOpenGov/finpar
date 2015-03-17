@@ -14,7 +14,13 @@ plenary_session(id = NULL, ...)
 notably \code{cache} if needed.}
 }
 \value{
-list of MPs
+Plenary session data in long data.frame format with the following fields:
+  \itemize{
+    \item{id}{Plenary session id}
+    \item{field}{Data field name}
+    \item{element}{Counter for elements in the given data field. Certain fields contain a list of values. This is used to distinguish between multiple list elements.}
+    \item{value}{Data field value}
+  }
 }
 \description{
 Returns all plenary_sessions of the Finnish parliament (MP).
