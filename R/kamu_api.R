@@ -35,7 +35,7 @@
 query_kamu_api <- function(endpoint, query=NULL, cache=FALSE) {
   
   # Base URL for KaMu API
-  base_url <- "http://dev.kansanmuisti.fi"
+  base_url <- "http://kansanmuisti.fi"
   # Construct the full endpoint
   endpoint <- paste0("api/v1/", endpoint)
   
