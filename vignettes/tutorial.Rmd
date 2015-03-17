@@ -21,8 +21,8 @@ from the unofficial [Kansan Muisti](http://kansanmuisti.fi)
 API. Kansan Muisti website 2.0 is currently under development and
 `finpar` uses an API based on this development version (API version
 1.0.0). API based on the development site can be found at
-http://dev.kansanmuisti.fi/api/v1/, documentation
-http://dev.kansanmuisti.fi/static/api_v1_doc/index.html.
+http://kansanmuisti.fi/api/v1/, documentation
+http://kansanmuisti.fi/static/api_v1_doc/index.html.
 
 ## Installation and usage
 
@@ -35,9 +35,9 @@ The following API endpoints are currently wrapped by `finpar`:
 
 | Data                | API endpoint                       | Function                           |
 |---------------------|------------------------------------|------------------------------------|
-| Parliamentary terms | [http://dev.kansanmuisti.fi/api/v1/term](http://dev.kansanmuisti.fi/static/api_v1_doc/index.html#api-Term) | `term()` |
-| Members of the Parliament | [http://dev.kansanmuisti.fi/api/v1/member](http://dev.kansanmuisti.fi/static/api_v1_doc/index.html#api-Member) | `member()` |
-| Plenary sessions | [http://dev.kansanmuisti.fi/api/v1/plenary_session](http://dev.kansanmuisti.fi/static/api_v1_doc/index.html#api-Plenary_Session) | `plenary_session()` |
+| Parliamentary terms | [http://kansanmuisti.fi/api/v1/term](http://kansanmuisti.fi/static/api_v1_doc/index.html#api-Term) | `term()` |
+| Members of the Parliament | [http://kansanmuisti.fi/api/v1/member](http://kansanmuisti.fi/static/api_v1_doc/index.html#api-Member) | `member()` |
+| Plenary sessions | [http://kansanmuisti.fi/api/v1/plenary_session](http://kansanmuisti.fi/static/api_v1_doc/index.html#api-Plenary_Session) | `plenary_session()` |
 
 
 ## <a name="installation"></a>Installation
@@ -85,10 +85,10 @@ print(term_2011)
 
 Get all parliament members and plot their age distribution
 
-```{r finparmember, results='asis', message=FALSE}
+```{r finparmember, results='asis', message=FALSE, fig.width=10, fig.height=7}
 all_members <- member()
 ages <- sapply(all_members, function (x) {x$age})
-hist(ages, col = "gray", xlab = "Age", main = "Age distribution of parliament members", las = 2)
+hist(ages, col = "gray", xlab = "Age", main = "Age distribution of parliament members", las = 1)
 ```
 
 Get a specific member defined by ID:
