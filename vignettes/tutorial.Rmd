@@ -127,7 +127,7 @@ Use [genderizeR](https://github.com/kalimu/genderizeR) to estimate gender for fi
 
 ```{r finpargenders}
 # devtools::install_github("kalimu/genderizeR")
-library(genderizeR)
+suppressPackageStartupMessages(library(genderizeR))
 x <- c("Sauli", "Tarja", "Mauno")
 givenNames <- findGivenNames(x, progress = FALSE)
 g <- genderize(x, genderDB=givenNames, blacklist=NULL, progress = FALSE)
