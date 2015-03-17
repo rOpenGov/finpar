@@ -18,7 +18,7 @@ Parliament of Finland: unofficial API client
 
 This R package provides tools to access Parliament of Finland data
 from the unofficial [Kansan Muisti](http://kansanmuisti.fi)
-2.0. [API](http://kansanmuisti.fi/api/v1/). For API documentation,
+2.0 [API](http://kansanmuisti.fi/api/v1/). For API documentation,
 check [here](http://dev.kansanmuisti.fi/static/api_v1_doc/index.html).
 
 
@@ -167,32 +167,32 @@ Get a specific plenary session defined by ID
 session <- plenary_session(id=30)  
 
 # List available variables
-print(session)
+print(kable(session))
 ```
 
 ```
-## Source: local data frame [18 x 4]
 ## 
-##    id field            element
-## 1  30     1               date
-## 2  30     1          info_link
-## 3  30     1  last_checked_time
-## 4  30     1 last_modified_time
-## 5  30     1               name
-## 6  30     1          origin_id
-## 7  30     1     origin_version
-## 8  30     1      plenary_votes
-## 9  30     2      plenary_votes
-## 10 30     3      plenary_votes
-## 11 30     4      plenary_votes
-## 12 30     5      plenary_votes
-## 13 30     6      plenary_votes
-## 14 30     7      plenary_votes
-## 15 30     8      plenary_votes
-## 16 30     9      plenary_votes
-## 17 30     1       resource_uri
-## 18 30     1           url_name
-## Variables not shown: value (chr)
+## 
+## |id | field|element            |value                                                                |
+## |:--|-----:|:------------------|:--------------------------------------------------------------------|
+## |30 |     1|date               |2012-11-23                                                           |
+## |30 |     1|info_link          |http://www.eduskunta.fi/triphome/bin/akxptk.sh?{KEY}=PTK+116/2012+vp |
+## |30 |     1|last_checked_time  |2013-12-01T00:00:00                                                  |
+## |30 |     1|last_modified_time |NA                                                                   |
+## |30 |     1|name               |116/2012                                                             |
+## |30 |     1|origin_id          |116/2012                                                             |
+## |30 |     1|origin_version     |2.0                                                                  |
+## |30 |     1|plenary_votes      |/api/v1/plenary_vote/1244/                                           |
+## |30 |     2|plenary_votes      |/api/v1/plenary_vote/1245/                                           |
+## |30 |     3|plenary_votes      |/api/v1/plenary_vote/1246/                                           |
+## |30 |     4|plenary_votes      |/api/v1/plenary_vote/1247/                                           |
+## |30 |     5|plenary_votes      |/api/v1/plenary_vote/1248/                                           |
+## |30 |     6|plenary_votes      |/api/v1/plenary_vote/1249/                                           |
+## |30 |     7|plenary_votes      |/api/v1/plenary_vote/1250/                                           |
+## |30 |     8|plenary_votes      |/api/v1/plenary_vote/1251/                                           |
+## |30 |     9|plenary_votes      |/api/v1/plenary_vote/1252/                                           |
+## |30 |     1|resource_uri       |/api/v1/plenary_session/30/                                          |
+## |30 |     1|url_name           |116-2012                                                             |
 ```
 
 
@@ -205,22 +205,6 @@ Use genderizeR package to estimate gender for first names (note that there might
 ```r
 # devtools::install_github("kalimu/genderizeR")
 library(genderizeR)
-```
-
-```
-## Welcome to genderizeR package version: 1.0.0.1
-## 
-## Changelog: news(package = 'genderizeR')
-## Help & Contact: help(genderizeR)
-## 
-## If you find this package useful cite it please. Thank you! 
-## See: citation('genderizeR')
-## 
-## To suppress this message use:
-## suppressPackageStartupMessages(library(genderizeR))
-```
-
-```r
 x <- c("Sauli", "Tarja", "Mauno")
 givenNames <- findGivenNames(x, progress = FALSE)
 ```
